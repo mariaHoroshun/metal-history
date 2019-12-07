@@ -1,0 +1,23 @@
+
+<body>
+<div id='content'>
+  <nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a routerLink="/albums"  class="link"><fa-icon [icon]="faDisk" ></fa-icon> Альбомы</a></li>
+        <li><a routerLink="/"  class="link"><fa-icon [icon]="faHome" ></fa-icon></a></li>
+        <li><a routerLink="/" class="link"> <fa-icon [icon]="faSearch"></fa-icon></a></li>
+      </ul>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a routerLink="/thrash"  class="link">Thrash</a></li>
+        <li><a routerLink="/doom" class="link">Doom</a></li>
+        <li><a routerLink="/death" class="link">Death</a></li>
+        <li><a routerLink="/black" class="link">Black</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div >
+    <router-outlet></router-outlet>
+  </div>
+</div>
+</body>
