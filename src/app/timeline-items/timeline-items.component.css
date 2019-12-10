@@ -1,0 +1,26 @@
+.mainBlock {
+    border-left:1px solid #d9d9d9;
+}
+.albList {
+    top:5px;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+	font-family:'Roboto';
+    font-size:1.2em;
+    margin-bottom: 20px;
+}
+
+.lineYear {
+    margin-top:20px;
+}
+.lineYear span{
+    padding: 15px 5px;
+	text-align:center;
+	background-color:#262626;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.albList:hover .lineYear span{
+	background-color:#404040;
+}

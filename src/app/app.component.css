@@ -2,7 +2,8 @@
     display:grid;
 }
 nav{
-    position: fixed;
+    position: fixed;    
+    z-index: 100;
 }
 .nav-wrapper {
     font-family: 'Roboto', sans-serif;
@@ -50,4 +51,11 @@ nav{
 .link:hover:before,
 .link:hover:after{
     width: 50%;
+}
+/**************************************/
+.page-footer{
+    background-color:#262626;
+}
+.linkText {
+    font-size: 1.5em;
 }

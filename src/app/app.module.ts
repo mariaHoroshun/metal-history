@@ -13,6 +13,7 @@ import { DoomComponent } from './doom/doom.component';
 import { AlbumPageComponent } from './album-page/album-page.component';
 import { RouterModule } from '@angular/router';
 import { AlbumTimelineComponent } from './album-timeline/album-timeline.component';
+import { TimelineItemsComponent } from './timeline-items/timeline-items.component';
 
 const routes = [
   {path: '', component: HomePageComponent},
@@ -33,7 +34,8 @@ const routes = [
     DeathComponent,
     DoomComponent,
     AlbumPageComponent,
-    AlbumTimelineComponent
+    AlbumTimelineComponent,
+    TimelineItemsComponent
   ],
   imports: [
     FontAwesomeModule,
