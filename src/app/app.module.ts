@@ -14,6 +14,7 @@ import { AlbumPageComponent } from './album-page/album-page.component';
 import { RouterModule } from '@angular/router';
 import { AlbumTimelineComponent } from './album-timeline/album-timeline.component';
 import { TimelineItemsComponent } from './timeline-items/timeline-items.component';
+import { CountryTabComponent } from './country-tab/country-tab.component';
 
 const routes = [
   {path: '', component: HomePageComponent},
@@ -21,7 +22,7 @@ const routes = [
   {path: 'black', component: BlackComponent},
   {path: 'doom', component: DoomComponent},
   {path: 'death', component: DeathComponent},
-  {path: 'thrash', component: ThrashComponent}
+  {path: 'thrash', component: GanrePageComponent} //change to thrash back!!!!
 ]
 
 @NgModule({
@@ -35,7 +36,8 @@ const routes = [
     DoomComponent,
     AlbumPageComponent,
     AlbumTimelineComponent,
-    TimelineItemsComponent
+    TimelineItemsComponent,
+    CountryTabComponent
   ],
   imports: [
     FontAwesomeModule,

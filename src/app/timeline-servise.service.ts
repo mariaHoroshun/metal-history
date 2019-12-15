@@ -3,6 +3,7 @@ import { MetalType } from './models/metal-type';
 import { of, Observable } from 'rxjs';
 import { TimelineItem } from './album-timeline/timeline-item';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -27,7 +28,6 @@ export class TimelineServiseService {
             timelineItems = this.getDeathTimeLineItems();
             break;
     }
-
     return of(timelineItems);
   }
 

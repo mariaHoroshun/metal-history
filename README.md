@@ -1,6 +1,11 @@
-# MetalHistory
+# Metal History
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
+Этот проект был создан с использованием [Angular CLI](https://github.com/angular/angular-cli), версии 8.3.17.
+
+## Загрузка проекта с github
+
+Чтобы загрузить весь проект из репозитория, нужно зайти на страницу проекта. Справа наверху есть кнопка Download ZIP. Кликнув по ней, zip архив с проектом будет скачен к вам на компьютер. 
+![](https://pastenow.ru/30ddda0ea752524315e9bd8337680ebc/300x200)
 
 ## Development server
 
@@ -13,10 +18,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 

@@ -10,9 +10,8 @@ export class TimelineItemsComponent implements OnInit {
 
   @Input()
   timelineItems: TimelineItem[];
-   
+  @Input() ganreTitle: string;
   constructor() { }
-
   ngOnInit() {
   }
 
