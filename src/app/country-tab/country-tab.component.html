@@ -1,1 +1,60 @@
-<p>country-tab works!</p>
+<div class = "pc-tab" >
+    <input checked="checked" id = "tab1" type="radio" name = "pct"/>
+    <input id = "tab2" type="radio" name = "pct"/>
+    <input id = "tab3" type="radio" name = "pct"/>
+    <input id = "tab4" type="radio" name = "pct"/>
+    <section id="navigation">
+       <ul>
+            <li class = "tab1">
+                <label for="tab1" (click)="onClick()" [ngClass]="{'clicked':isClicked}" ><p class="icon"></p></label>
+            </li>
+            <li class = "tab2">
+                <label for="tab2"><p class="icon" [ngStyle]="{'background-image':'url(/assets/myIcons/usa.png)'}" ></p></label>
+            </li>
+            <li class = "tab3">
+                <label for="tab3"><p class="icon" [ngStyle]="{'background-image':'url(/assets/myIcons/russia.png)'}"></p></label>
+            </li>
+            <li class = "tab4">
+                <label for="tab4"><p class="icon" [ngStyle]="{'background-image':'url(/assets/myIcons/france.png)'}"></p></label>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <div class="tab1">
+            <div class="tableBlock">
+                    <div>
+                        <p class="tabTitle">First</p>
+                        <p >111111111someTEXT<br>  Donec vulputate ante ac ligula vestibulum, id mollis diam commodo. Integer at consequat magna. Sed elit sem, dictum nec porttitor ac, ultrices id enim. lectus sit amet tellus vehicula faucibus. Etiam sed leo ac erat tempor feugiat at quis ip</p>
+                    </div>
+                    <div class="tablePic"></div>
+            </div>
+        </div>
+        <div class="tab2">
+            <div class="tableBlock">
+                <div>
+                    <p class="tabTitle">sec</p>
+                    <p>2222221someTEXT<br>  Donec vulputate ante ac ligula vestibulum, id mollis diam commodo. Integer at consequat magna. Sed elit sem, dictum nec porttitor ac, ultrices id enim. lectus sit amet tellus vehicula faucibus. Etiam sed leo ac erat tempor feugiat at quis ip</p>
+                </div>
+                <div class="tablePic"></div>
+        </div>
+        </div>
+        <div class="tab3">
+            <div class="tableBlock">
+                <div>
+                    <p class="tabTitle">Third</p>
+                    <p>111111111someTEXT<br>  Donec vulputate ante ac ligula vestibulum, id mollis diam commodo. Integer at consequat magna. Sed elit sem, dictum nec porttitor ac, ultrices id enim. lectus sit amet tellus vehicula faucibus. Etiam sed leo ac erat tempor feugiat at quis ip</p>
+                </div>
+                <div class="tablePic"></div>
+            </div>
+        </div>
+        <div class="tab4">
+            <div class="tableBlock">
+                <div>
+                    <p class="tabTitle">Four</p>
+                    <p>4444444someTEXT<br>  Donec vulputate ante ac ligula vestibulum, id mollis diam commodo. Integer at consequat magna. Sed elit sem, dictum nec porttitor ac, ultrices id enim. lectus sit amet tellus vehicula faucibus. Etiam sed leo ac erat tempor feugiat at quis ip</p>
+                </div>
+                <div class="tablePic"></div>
+            </div>
+        </div>
+    </section>
+</div>

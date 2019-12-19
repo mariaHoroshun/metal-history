@@ -11,5 +11,10 @@ export class CountryTabComponent implements OnInit {
 
   ngOnInit() {
   }
+  isClicked = false;
+
+  onClick() {
+    this.isClicked = true;
+  }
 
 }

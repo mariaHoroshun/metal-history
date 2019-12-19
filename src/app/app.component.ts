@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faCompactDisc, faHome, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faCompactDisc, faHome, faSearch, faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faVk } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -14,4 +14,13 @@ export class AppComponent {
   faSearch = faSearch;
   faGit = faGithub;
   faVk = faVk;
+  fasquareUp = faArrowAltCircleUp;
+
+  scrollToTop() {
+    window.scrollTo({
+      left: 0,
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {faCaretSquareDown, faAngleRight} from '@fortawesome/free-solid-svg-icons';
+import {faCaretSquareDown, faAngleRight, faInfoCircle, faSmile} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home-page',
@@ -11,6 +11,8 @@ export class HomePageComponent implements OnInit {
 
   faDown = faCaretSquareDown;
   faRight = faAngleRight;
+  faInfo = faInfoCircle;
+  faSmile = faSmile;
 
   ngOnInit() {
   }

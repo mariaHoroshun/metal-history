@@ -1,0 +1,68 @@
+.pc-tab{
+    margin: 20px 10%;
+}
+   
+.pc-tab > input,
+.pc-tab section > div {
+    display: none;
+}
+label{
+   font-size: 1.2em;
+}
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2,
+#tab3:checked ~ section .tab3,
+#tab4:checked ~ section .tab4 {
+    display:block;
+}
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+.pc-tab ul li label{
+    float: left;
+    padding: 15px 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    background-color: #1d1d1d;
+}
+.pc-tab ul li label:hover{
+    background-color: #222222;
+}
+
+/*.pc-tab ul li label:active{
+    background-color: black;
+}*/
+/*.pc-tab ul li:not(:last-child) label{
+    border-right-width: 0;
+}*/
+.pc-tab section{
+    clear: both;
+}
+.pc-tab section div{
+    /*border-top: 3px solid #0D0D0D;*/
+    background-color: #262626;
+    padding: 10px 20px;
+}
+.tableBlock{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.tabTitle{
+    font-size: 1.5em;
+}
+.tablePic{
+    background-image: url(/assets/images/slayer.png);
+}
+.icon{
+    margin: 0 0;
+    background-image:url(/assets/myIcons/germany.png); 
+    width:30px; 
+    height:30px;
+    background-position: center;
+   background-repeat: no-repeat;
+}
+.clicked{
+    background-color: #a10000;
+}
+label{
+    height: 60px;
+}

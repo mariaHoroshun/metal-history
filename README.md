@@ -1,28 +1,27 @@
 # Metal History
 
-Этот проект был создан с использованием [Angular CLI](https://github.com/angular/angular-cli), версии 8.3.17.
+Данный сайт является моим первым проектом на Angular. :wink:
+
+## Создано с помощью
+* Этот проект был создан с использованием [Angular CLI](https://github.com/angular/angular-cli), версии 8.3.17
+* Для создания интерфейса использоваись [Figma](https://www.figma.com/), [Photoshop](https://www.adobe.com/ru/products/photoshop.html)
+* Использовались библиотеки [Font Awesom](https://fontawesome.com/) и [Bootstrap](https://getbootstrap.com/)
 
 ## Загрузка проекта с github
 
 Чтобы загрузить весь проект из репозитория, нужно зайти на страницу проекта. Справа наверху есть кнопка Download ZIP. Кликнув по ней, zip архив с проектом будет скачен к вам на компьютер. 
-![](https://pastenow.ru/30ddda0ea752524315e9bd8337680ebc/300x200)
+![gitHub screenshot](https://i.paste.pics/30ddda0ea752524315e9bd8337680ebc.png)
 
-## Development server
+## Сервер разработки
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Запустите `ng serve` для сервера разработки. Перейдите к `http://localhost:4200/`. Приложение автоматически перезагрузится, если вы измените какой-либо из исходных файлов.
 
-## Code scaffolding
+## Сборка проекта
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Запустите `ng build` чтобы собрать проект. Данная  команда компилирует приложение Angular в выходной каталог с именем `dist/` по заданному выходному пути. Должен выполняться из каталога рабочей области.
 
-## Build
+## Авторы
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Хорошун Мария - дизайн и разработка
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
