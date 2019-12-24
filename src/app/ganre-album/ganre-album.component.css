@@ -1,0 +1,25 @@
+.ganre-album{
+    padding: 30px 0;
+    margin: 40px 0;
+    background-color: #0a0a0a;
+}
+.header{
+    font-family: 'Scada';
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    text-transform:uppercase;
+}
+.goToAlbums{
+    text-align: center;
+    background-color: #262626;
+    padding: 10px 0;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+.goToAlbums:hover{
+    background-color: #1b1b1b;
+}
+.input-value label, input{
+    font-size: 1.1em;
+    color: #848181;
+}

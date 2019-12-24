@@ -1,2 +1,12 @@
-
-<app-album-block></app-album-block>
+<div class="ganre-album">
+    <div class="container">
+        <div class="header">Альбомы в жанре THRASH METAL</div>
+        <div class="input-value">
+            <label for="numberOfAlbums">количество отображаемых альбомов:</label>
+            <input type="text" id="number" name="numberOfAlbums" required minlength="1" maxlength="3">
+        </div>
+        <app-album-block></app-album-block>
+        <div class="goToAlbums" routerLink="/albums">Перейти ко вкладке альбомы <fa-icon [icon]="faRight"></fa-icon>
+        </div>
+    </div>
+</div>

@@ -6,18 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./country-tab.component.css']
 })
 export class CountryTabComponent implements OnInit {
+  protected German = 'german';
+  protected Usa = 'usa';
+  protected Russia = 'russia';
+  protected England = 'england';
+
+  protected currentTab: string = this.German;
 
   constructor() { }
 
   ngOnInit() {
   }
-  isClicked = false;
-  isAnotherClicked = false; 
 
-  onClick() {
-    this.isClicked = true;
-    console.log('click');
-   // label.style.backgroundColor=color;
+  protected selectTab(tab: string) {
+    this.currentTab = tab;
+  }
+
+  protected isActive(tab: string): boolean {
+    return this.currentTab === tab;
   }
 
 }

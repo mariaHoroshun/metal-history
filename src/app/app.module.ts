@@ -21,6 +21,7 @@ import { SoundComponent } from './sound/sound.component';
 import { LyricsComponent } from './lyrics/lyrics.component';
 import { AlbumBlockComponent } from './album-block/album-block.component';
 import { GanreAlbumComponent } from './ganre-album/ganre-album.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 
 const routes = [
@@ -51,6 +52,7 @@ const routes = [
     LyricsComponent,
     AlbumBlockComponent,
     GanreAlbumComponent,
+    NavigationComponent,
   ],
   imports: [
     FontAwesomeModule,
