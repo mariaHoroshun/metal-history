@@ -1,0 +1,32 @@
+.sound-block{
+    margin: 0 8%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.sound-pic{
+    background-image: url('/assets/images/guy.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sound-description{
+    padding: 20px 35px 15px 20px;
+    background: #848181;
+    box-shadow: inset 3px 10px 5px rgba(56, 55, 55, 0.5);
+    border-radius: 20px;
+    margin: 40px 0px;
+}
+.header{
+    font-family: Scada;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    color:black;
+    text-transform:uppercase;
+    border-bottom: 2px solid black;
+}
+.text{
+    padding: 15px 5px 15px 15px;
+    color:black;
+    font-size: 1.2em;
+    font-family: Roboto;
+}

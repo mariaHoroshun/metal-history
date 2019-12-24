@@ -6,16 +6,18 @@
     <section id="navigation">
        <ul>
             <li class = "tab1">
-                <label for="tab1" (click)="onClick()" [ngClass]="{'clicked':isClicked}" ><p class="icon"></p></label>
+                <label for="tab1" 
+                (click)="onClick()" [ngClass]="{'clicked':isClicked}" 
+                ><p class="icon"></p></label>
             </li>
             <li class = "tab2">
-                <label for="tab2"><p class="icon" [ngStyle]="{'background-image':'url(/assets/myIcons/usa.png)'}" ></p></label>
+                <label for="tab2" (click)="onClick()" [ngClass]="{'clicked':isClicked}"><p class="icon"  [ngStyle]="{'background-image':'url(/assets/myIcons/usa.png)'}" ></p></label>
             </li>
             <li class = "tab3">
-                <label for="tab3"><p class="icon" [ngStyle]="{'background-image':'url(/assets/myIcons/russia.png)'}"></p></label>
+                <label for="tab3" (click)="onClick()" [ngClass]="{'clicked':isClicked}" ><p class="icon" [ngStyle]="{'background-image':'url(/assets/myIcons/russia.png)'}"></p></label>
             </li>
             <li class = "tab4">
-                <label for="tab4"><p class="icon" [ngStyle]="{'background-image':'url(/assets/myIcons/france.png)'}"></p></label>
+                <label for="tab4" (click)="onClick()"[ngClass]="{'clicked':isClicked}" ><p class="icon" [ngStyle]="{'background-image':'url(/assets/myIcons/britain.png)'}"></p></label>
             </li>
         </ul>
     </section>

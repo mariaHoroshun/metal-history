@@ -1,0 +1,57 @@
+.header{
+    font-family: 'Scada';
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    text-transform:uppercase;
+    border-bottom: 2px solid ;
+}
+.lyrics-pic{
+    background-image: url('/assets/images/reign-in-blood.png');
+    background-position: center;
+    background-size: cover;
+}
+.lyrics-block{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 50px 8% 20px 8%;
+}
+.text{
+    padding: 15px 20px 15px 15px;
+    font-size: 1.2em;
+    font-family: Roboto;
+}
+.lyrics-description{
+    background: #262626;
+    box-shadow: inset 3px 10px 5px rgba(56, 55, 55, 0.5);
+    border-radius: 20px;
+    padding: 20px 35px 10px 20px;
+    margin-top: 40px;
+}
+.showText{
+    padding-top: 10px;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.showText:hover{
+    color:#7c7c7c;
+}
+/*********************/
+.hidden-text{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #262626;
+    margin: 0px 8%;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: normal;
+}
+.hidden-text div:first-child{
+    border-right: 2px solid;
+}
+.close{
+    background-color:#3D3A3A;
+    text-align: center;
+    font-size: 30px;
+    grid-column: 1 / 3;
+}

@@ -1,29 +1,37 @@
-<div class = "offer">
+<div class="offer">
     <div class="main-title">
         <p>Экстремальный метал <br> XX века</p>
-        <a  (click)="scrollToElement(info2)" class='goDown'><fa-icon [icon]="faDown" ></fa-icon></a>
+        <a (click)="scrollToElement(info2)" class='goDown'>
+            <fa-icon [icon]="faDown"></fa-icon>
+        </a>
         <div>
-            <a (click)="scrollToElement(albums)" class = "ButtonLink">Альбомы <fa-icon [icon]="faRight" ></fa-icon></a>
-            <a href="#"  class = "ButtonLink">Жанры <fa-icon [icon]="faRight" ></fa-icon></a>
+            <a (click)="scrollToElement(albums)" class="ButtonLink">Альбомы <fa-icon [icon]="faRight"></fa-icon></a>
+            <a href="#" class="ButtonLink">Жанры <fa-icon [icon]="faRight"></fa-icon></a>
         </div>
     </div>
     <div class="rectangles"></div>
 </div>
-<div class = "container">
-    <div class = "metal-info" #info2 id="info">
+<app-spelling-info></app-spelling-info>
+<div class="container">
+    <div class="metal-info" #info2 id="info">
         <div class="info-title">Экстремальний метал -</div>
-        <div class = "info-pic"></div>
-        <div class = "info-text1">
-            <p>музыка, которая быстрее, жёстче, тяжелее или агрессивнее мейнстримного хэви-метала, либо новых ню-метал групп. </p>
-            <p>Экстремальные метал группы предпочитают более абразивные музыкальные свойства, такие как высокий ритм, повышенная агрессия и крайняя жёсткость.</p>
+        <div class="info-pic"></div>
+        <div class="info-text1">
+            <p>музыка, которая быстрее, жёстче, тяжелее или агрессивнее мейнстримного хэви-метала, либо новых ню-метал
+                групп. </p>
+            <p>Экстремальные метал группы предпочитают более абразивные музыкальные свойства, такие как высокий ритм,
+                повышенная агрессия и крайняя жёсткость.</p>
         </div>
     </div>
-    <div class = "metal-info2">
-        <div class = "info-text2">
-            <p>Этот жанр характеризуется высокой степенью искажений, меньшим вниманием к гитарным соло и мелодии, техническим контролем и быстрыми темпами. В большинстве стран мира экстремальный метал не получает большой известности на радиостанциях, не достигает высоких позиций в чартах.</p>
-            <div class="button-div"><a routerLink="/albums" class = "ButtonLink">Перети к альбомам <fa-icon [icon]="faRight" ></fa-icon></a></div>
+    <div class="metal-info2">
+        <div class="info-text2">
+            <p>Этот жанр характеризуется высокой степенью искажений, меньшим вниманием к гитарным соло и мелодии,
+                техническим контролем и быстрыми темпами. В большинстве стран мира экстремальный метал не получает
+                большой известности на радиостанциях, не достигает высоких позиций в чартах.</p>
+            <div class="button-div"><a routerLink="/albums" class="ButtonLink">Перейти к альбомам <fa-icon
+                        [icon]="faRight"></fa-icon></a></div>
         </div>
-        <div class = "info-pic2"></div>
+        <div class="info-pic2"></div>
     </div>
     <section>
         <div #albums>

@@ -11,8 +11,6 @@ export class HomePageComponent implements OnInit {
 
   faDown = faCaretSquareDown;
   faRight = faAngleRight;
-  faInfo = faInfoCircle;
-  faSmile = faSmile;
 
   ngOnInit() {
   }

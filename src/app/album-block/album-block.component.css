@@ -1,0 +1,22 @@
+.album-block{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    margin: 40px 0;
+}
+.name{
+    font-family: Scada;
+    grid-column: 1 / 8;
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.picture{
+    height: 400px;
+    background-size: cover;
+    background-position: top;
+    position: relative ;
+}
+.description{
+    padding-left: 40px;
+    font-size: 1.2em;
+    background-color: #262626;;
+}

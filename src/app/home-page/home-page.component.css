@@ -33,7 +33,7 @@
     padding-left: 15px;
     color:#D9D9D9;
     font-size: 35px;
-    transition: 0.8s;
+   
 }
 .ButtonLink:hover{
     color:#D9D9D9;
@@ -69,7 +69,8 @@
 .info-title{
     padding-bottom: 10px;
     background-color: #0D0D0D;
-    font-family: Scada;
+    text-transform: uppercase;
+    font-family: 'Scada';
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
@@ -109,6 +110,7 @@
 }
 .button-div{
     margin-bottom: 30px;
+   
 }
 .bottom-pic{
     margin-top: -200px;

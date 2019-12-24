@@ -15,14 +15,21 @@ import { RouterModule } from '@angular/router';
 import { AlbumTimelineComponent } from './album-timeline/album-timeline.component';
 import { TimelineItemsComponent } from './timeline-items/timeline-items.component';
 import { CountryTabComponent } from './country-tab/country-tab.component';
+import { SpellingInfoComponent } from './spelling-info/spelling-info.component';
+import { DescriptionComponent } from './description/description.component';
+import { SoundComponent } from './sound/sound.component';
+import { LyricsComponent } from './lyrics/lyrics.component';
+import { AlbumBlockComponent } from './album-block/album-block.component';
+import { GanreAlbumComponent } from './ganre-album/ganre-album.component';
+
 
 const routes = [
-  {path: '', component: HomePageComponent},
-  {path: 'albums', component: AlbumPageComponent},
-  {path: 'black', component: BlackComponent},
-  {path: 'doom', component: DoomComponent},
-  {path: 'death', component: DeathComponent},
-  {path: 'thrash', component: GanrePageComponent} //change to thrash back!!!!
+  { path: '', component: HomePageComponent },
+  { path: 'albums', component: AlbumPageComponent },
+  { path: 'black', component: BlackComponent },
+  { path: 'doom', component: DoomComponent },
+  { path: 'death', component: DeathComponent },
+  { path: 'thrash', component: GanrePageComponent } //change to thrash back!!!!
 ]
 
 @NgModule({
@@ -37,7 +44,13 @@ const routes = [
     AlbumPageComponent,
     AlbumTimelineComponent,
     TimelineItemsComponent,
-    CountryTabComponent
+    CountryTabComponent,
+    SpellingInfoComponent,
+    DescriptionComponent,
+    SoundComponent,
+    LyricsComponent,
+    AlbumBlockComponent,
+    GanreAlbumComponent,
   ],
   imports: [
     FontAwesomeModule,

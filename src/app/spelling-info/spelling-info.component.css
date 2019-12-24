@@ -1,0 +1,34 @@
+.spell-info{
+    background-color: #262626;
+    padding: 20px 20%;
+    margin-bottom: 60px;
+}
+.howTo{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Scada';
+    font-size: 1.6em;
+}
+.info-heder{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.icon-info{
+    justify-content: center;
+    text-align: left;
+    font-size: 3em;
+}
+.goDown{
+    text-align: center;
+    font-size: 1.5em;
+    border: 1.5px solid currentColor;
+    transition: 1s;
+}
+.goDown:hover{
+    border-color: #7c7c7c;
+    background-color: #1b1b1b;
+}
+.showed-info{
+    padding: 20px;
+    font-size: 1.3em;
+}

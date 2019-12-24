@@ -1,0 +1,19 @@
+<div class="spell-info">
+    <div class="info-heder">
+        <div class="icon-info">
+            <fa-icon [icon]="faInfo"></fa-icon>
+        </div>
+        <div>
+            <p class="howTo">Как правильно: метал или металл?</p>
+        </div>
+    </div>
+    <div class="goDown" (mouseenter)="changeValue()">
+        <fa-icon [icon]="faDownAr"></fa-icon>
+    </div>
+    <div *ngIf="showInfo" class="showed-info">
+        На самом деле, очень много споров возникает по этой теме. С точки зрения русского языка, конечно правильно
+        писать "метаЛЛ". Однако это слово обозначает химическое вещество. А сам жанр музыки пришел с запада, где пишется
+        "metal", отсуюда и написание "метаЛ". Автор придерживается написания с одной буквой Л, хотя и тот, и другой
+        вариант не считаются ошибочными. <fa-icon [icon]="faSmile"></fa-icon>
+    </div>
+</div>

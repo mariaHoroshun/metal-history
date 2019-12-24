@@ -61,7 +61,7 @@ label{
    background-repeat: no-repeat;
 }
 .clicked{
-    background-color: #a10000;
+    background-color: #262626!important;
 }
 label{
     height: 60px;

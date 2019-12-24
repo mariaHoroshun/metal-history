@@ -12,9 +12,12 @@ export class CountryTabComponent implements OnInit {
   ngOnInit() {
   }
   isClicked = false;
+  isAnotherClicked = false; 
 
   onClick() {
     this.isClicked = true;
+    console.log('click');
+   // label.style.backgroundColor=color;
   }
 
 }
