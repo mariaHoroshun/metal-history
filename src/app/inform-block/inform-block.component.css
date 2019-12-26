@@ -1,0 +1,30 @@
+.informBlock{
+    padding-top: 70px;
+}
+.mainHeader{
+    padding: 25px 0;
+    font-family: 'Scada';
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 80px;
+    letter-spacing: 0.1em;
+    text-transform:uppercase;
+}
+.textBlock{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap:1.5em;
+    margin-bottom: 70px;
+}
+.informText{
+    padding:10px 30px;
+    background-color: #262626;
+    font-size: 20px;
+}
+.informPic{
+    background-image: url(/assets/backgrounds/kreatorLine.jpg);
+    position: center;
+    border-left:  2px solid currentColor;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

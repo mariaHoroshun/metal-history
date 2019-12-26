@@ -5,7 +5,7 @@
 ## Создано с помощью
 * Этот проект был создан с использованием [Angular CLI](https://github.com/angular/angular-cli), версии 8.3.17
 * Для создания интерфейса использоваись [Figma](https://www.figma.com/), [Photoshop](https://www.adobe.com/ru/products/photoshop.html)
-* Использовались библиотеки [Font Awesom](https://fontawesome.com/) и [Bootstrap](https://getbootstrap.com/)
+* Использовались библиотеки [Font Awesome](https://fontawesome.com/), [Materialize](https://materializecss.com/)  и [Bootstrap](https://getbootstrap.com/)
 
 ## Загрузка проекта с github
 
@@ -19,6 +19,10 @@
 ## Сборка проекта
 
 Запустите `ng build` чтобы собрать проект. Данная  команда компилирует приложение Angular в выходной каталог с именем `dist/` по заданному выходному пути. Должен выполняться из каталога рабочей области.
+
+## Прототип интерфейса
+
+* По данной [ссылке](https://www.figma.com/file/huSRnyCS1rCz5zZR8IkEyI/Untitled?node-id=0%3A1) можно просмотреть прототип интерфейса в Figma 
 
 ## Авторы
 

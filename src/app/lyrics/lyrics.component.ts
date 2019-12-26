@@ -14,7 +14,7 @@ export class LyricsComponent implements OnInit {
 
   ngOnInit() {
   }
-  isShowed = false;
+  isShowed = true;
 
   showInfo() {
     this.isShowed = true;

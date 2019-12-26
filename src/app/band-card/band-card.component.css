@@ -1,0 +1,42 @@
+.band-card{
+    display: grid;
+    grid-template-rows: 5fr 4fr 1fr;
+    width: 300px;
+    background-color: #262626;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.bandLogo{
+    background-image: url('/assets/images/exodus.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 2px solid;
+}
+.text{
+    padding: 20px 20px;
+}
+.header{
+    font-family: Roboto;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+.description{
+    font-size: 1.1em;
+    color: #848181;
+}
+.link{
+    padding-top: 10px;
+    padding-left: 20px;
+    justify-content: center;
+    background-color: #848181;
+    color: #262626;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.link:hover{
+    background-color:#6d6d6d ;
+}

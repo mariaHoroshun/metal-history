@@ -7,8 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class GanrePageComponent implements OnInit {
 
-  /*@Input() content: string;
-  @Input() titleT: string;*/
+
   constructor() { }
 
   ngOnInit() {
