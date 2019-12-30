@@ -1,8 +1,10 @@
 <div class="mainBlock">
-    <div class = "albList" *ngFor="let item of timelineItems">
-        <div class="lineYear"><span>{{item.year}}</span></div>
-        <div class="albums">
-            {{item.description}}
+    <div class="albList" *ngFor="let item of timelineItems">
+        <div class="albumItem">
+            <div class="lineYear"><span>{{item.year}}</span></div>
+            <div class="albums">
+                {{item.description}}
+            </div>
         </div>
     </div>
 </div>

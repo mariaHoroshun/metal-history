@@ -24,3 +24,10 @@
 .albList:hover .lineYear span{
 	background-color:#404040;
 }
+.albumItem{
+    width: 300px;
+    margin-left: -25px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 0.5em;
+}

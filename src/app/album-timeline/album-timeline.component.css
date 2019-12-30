@@ -1,3 +1,31 @@
+.albums-block{
+    margin: 0 10%;
+}
 td{
     vertical-align: top;
+}
+.album-title{
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-family: 'Scada';
+    letter-spacing: 0.1em;
+    font-size: 3em;
+}
+.ganre-name{
+    letter-spacing: 0.1em;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Scada';
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.842);
+    background-image: url("/assets/backgrounds/thrash.jpg");
+    background-position: center;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.ganre-name:hover{
+    opacity: 1;
 }

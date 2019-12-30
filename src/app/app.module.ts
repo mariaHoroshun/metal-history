@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,6 +26,9 @@ import { InformBlockComponent } from './inform-block/inform-block.component';
 import { SubganrePageComponent } from './subganre-page/subganre-page.component';
 import { BandCardComponent } from './band-card/band-card.component';
 import { GanreBandsComponent } from './ganre-bands/ganre-bands.component';
+import { GanreClipComponent } from './ganre-clip/ganre-clip.component';
+import { GuitarsCollectionComponent } from './guitars-collection/guitars-collection.component';
+import { GuitarCardComponent } from './guitar-card/guitar-card.component';
 
 
 const routes = [
@@ -62,9 +64,11 @@ const routes = [
     SubganrePageComponent,
     BandCardComponent,
     GanreBandsComponent,
+    GanreClipComponent,
+    GuitarsCollectionComponent,
+    GuitarCardComponent,
   ],
   imports: [
-    NgbModule,
     FontAwesomeModule,
     BrowserModule,
     AppRoutingModule,

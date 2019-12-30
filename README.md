@@ -5,7 +5,7 @@
 ## Создано с помощью
 * Этот проект был создан с использованием [Angular CLI](https://github.com/angular/angular-cli), версии 8.3.17
 * Для создания интерфейса использоваись [Figma](https://www.figma.com/), [Photoshop](https://www.adobe.com/ru/products/photoshop.html)
-* Использовались библиотеки [Font Awesome](https://fontawesome.com/), [Materialize](https://materializecss.com/)  и [Bootstrap](https://getbootstrap.com/)
+* Использовались библиотеки [Font Awesome](https://fontawesome.com/), [Materialize](https://materializecss.com/).
 
 ## Загрузка проекта с github
 

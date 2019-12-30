@@ -1,11 +1,10 @@
-.ganre-bands{
-    background-color: #0a0a0a;
-    padding: 20px 0;
+.carousel-item{
+    text-align: center;
 }
-.bands-header{
+.header{
     font-family: 'Scada';
-    font-size: 40px;
     letter-spacing: 0.1em;
     text-transform:uppercase;
+    font-size: 40px;
     padding-bottom: 20px;
 }

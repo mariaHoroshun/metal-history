@@ -16,17 +16,17 @@ export class TimelineServiseService {
 
     switch (metalType) {
       case MetalType.thrash:
-          timelineItems = this.getThrashTimeLineItems();
-          break;
+        timelineItems = this.getThrashTimeLineItems();
+        break;
       case MetalType.black:
-          timelineItems = this.getBlackTimeLineItems();
-          break;
+        timelineItems = this.getBlackTimeLineItems();
+        break;
       case MetalType.doom:
-          timelineItems = this.getDoomTimeLineItems();
-          break;
+        timelineItems = this.getDoomTimeLineItems();
+        break;
       case MetalType.death:
-            timelineItems = this.getDeathTimeLineItems();
-            break;
+        timelineItems = this.getDeathTimeLineItems();
+        break;
     }
     return of(timelineItems);
   }
@@ -35,7 +35,7 @@ export class TimelineServiseService {
     return [
       {
         year: 1985,
-        description: "Megadeth - Killing is my buisness, Exodus-Bonded by blood" 
+        description: "Megadeth - Killing is my buisness, Exodus-Bonded by blood"
       },
       {
         year: 1986,
@@ -56,6 +56,30 @@ export class TimelineServiseService {
       {
         year: 1990,
         description: "Pantera - Cowboys From Hell, Megadeth – Rust In Peace, Slayer – Seasons In The Abyss"
+      },
+      {
+        year: 1991,
+        description: "Overkill – Horrorscope, Sepultura – Arise"
+      },
+      {
+        year: 1992,
+        description: "Megadeth - Countdown to Extinction, Pantera - Vulgar Display of Power"
+      },
+      {
+        year: 1993,
+        description: "Anthrax - Sound of White Noise, Voivod - The Outer Limits, Sepultura - Chaos A.D."
+      },
+      {
+        year: 1994,
+        description: "Annihilator - King of the Kill, Testament - Low"
+      },
+      {
+        year: 1995,
+        description: "Sodom - Masquerade in Blood, Iced Earth - Burnt Offerings, Meshuggah - Destroy Erase Improve"
+      },
+      {
+        year: 1996,
+        description: "Pantera - The Great Southern Trendkill"
       }
     ];
   }
@@ -85,6 +109,30 @@ export class TimelineServiseService {
       {
         year: 1990,
         description: "Hellhammer - Apocalyptic Raids 1990 A.D., Blasphemy - Fallen Angel of Doom..."
+      },
+      {
+        year: 1991,
+        description: "Darkthrone - Soulside Journey, Beherit - The Oath of Black Blood, Rotting Christ - Passage to Arcturo"
+      },
+      {
+        year: 1992,
+        description: "Darkthrone - A Blaze in the Northern Sky, Immortal - Diabolical Fullmoon Mysticism, Marduk - Dark Endless"
+      },
+      {
+        year: 1993,
+        description: "Gorgoroth - A Sorcery Written in Blood, Darkthrone - Under a Funeral Moon, Immortal - Pure Holocaust"
+      },
+      {
+        year: 1994,
+        description: "Mayhem - De Mysteriis Dom Sathanas, Dimmu Borgir - For All Tid, Darkthrone - Transilvanian Hunger"
+      },
+      {
+        year: 1995,
+        description: "Necromantia - Scarlet Evil Witching Black, Dissection - Storm of the Light's Bane"
+      },
+      {
+        year: 1996,
+        description: "Satyricon - Nemesis Divina, Burzum - Filosofem"
       }
     ];
   }
@@ -114,6 +162,30 @@ export class TimelineServiseService {
       {
         year: 1990,
         description: "Paradise Lost - Lost Paradise"
+      },
+      {
+        year: 1991,
+        description: "Cathedral - Forest of Equilibrium, Confessor - Condemned"
+      },
+      {
+        year: 1992,
+        description: "Penance - The Road Less Travelled, Revelation - Never Comes Silence, Sleep - Sleep's Holy Mountain "
+      },
+      {
+        year: 1993,
+        description: "Count Raven - High on Infinity, Memento Mori - Rhymes of Lunacy"
+      },
+      {
+        year: 1994,
+        description: "Left Hand Solution - Shadowdance"
+      },
+      {
+        year: 1995,
+        description: "Saint Vitus - Die Healing, Electric Wizard - Electric Wizard, Blood Farmers - Blood Farmers"
+      },
+      {
+        year: 1996,
+        description: "Scald - Will of Gods Is a Great Power"
       }
     ];
   }
@@ -143,6 +215,30 @@ export class TimelineServiseService {
       {
         year: 1990,
         description: "Entombed - Left Hand Path, Deicide - Deicide, Carnage - Dark Recollections"
+      },
+      {
+        year: 1991,
+        description: "Pestilence - Testimony of the Ancients, Morbid Angel - Blessed Are the Sick"
+      },
+      {
+        year: 1992,
+        description: "Deicide - Legion, Cannibal Corpse - Tomb of the Mutilated, Asphyx - Last One on Earth"
+      },
+      {
+        year: 1993,
+        description: "Sarcófago - I.N.R.I., Mayhem - Deathcrush"
+      },
+      {
+        year: 1994,
+        description: "Carcass - Heartwork, Hypocrisy - Osculum Obscenum"
+      },
+      {
+        year: 1995,
+        description: "Suffocation - Pierced from Within, Vader - De Profundis"
+      },
+      {
+        year: 1996,
+        description: "Immolation - Here in After"
       }
     ];
   }

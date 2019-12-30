@@ -1,9 +1,27 @@
-<div>
-    <p>Альбомы, повлиявшие на жанр</p>
+<div class="albums-block">
+    <div>
+        <p class="album-title">Альбомы, повлиявшие на жанр</p>
+    </div>
+    <table>
+        <td>
+            <div class="ganre-name" routerLink="/thrash">Thrash</div>
+            <app-timeline-items [timelineItems]="thrashItems"></app-timeline-items>
+        </td>
+        <td>
+            <div class="ganre-name" routerLink="/doom"
+                [ngStyle]="{'background-image':'url(/assets/backgrounds/doom.jpg)'}">
+                Doom</div>
+            <app-timeline-items [timelineItems]="doomItems"></app-timeline-items>
+        </td>
+        <td>
+            <div class="ganre-name" routerLink="/black"
+                [ngStyle]="{'background-image':'url(/assets/backgrounds/black.jpg)'}">Black</div>
+            <app-timeline-items [timelineItems]="blackItems"></app-timeline-items>
+        </td>
+        <td>
+            <div class="ganre-name" routerLink="/death"
+                [ngStyle]="{'background-image':'url(/assets/backgrounds/death.jpg)'}">Death</div>
+            <app-timeline-items [timelineItems]="deathItems"></app-timeline-items>
+        </td>
+    </table>
 </div>
-<table>
-    <td><app-timeline-items [timelineItems]="thrashItems"></app-timeline-items></td>
-    <td><app-timeline-items [timelineItems]="doomItems"></app-timeline-items></td>
-    <td><app-timeline-items [timelineItems]="blackItems"></app-timeline-items></td>
-    <td><app-timeline-items [timelineItems]="deathItems"></app-timeline-items></td>
-</table>

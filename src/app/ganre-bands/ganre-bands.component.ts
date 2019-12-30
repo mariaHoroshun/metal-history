@@ -10,6 +10,7 @@ export class GanreBandsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
