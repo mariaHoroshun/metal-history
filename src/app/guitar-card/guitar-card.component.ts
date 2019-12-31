@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { GuitarCard } from './guitar-card';
-import {GuitarService} from '/../guitar-service'
+import { GuitarService } from './../guitar-service.service';
 
 @Component({
   selector: 'app-guitar-card',
@@ -10,11 +10,9 @@ import {GuitarService} from '/../guitar-service'
 })
 export class GuitarCardComponent implements OnInit {
 
+  @Input()
   guitarCards: GuitarCard[];
-
-  constructor(private guitarService:GuitarService){}
-
+  constructor() { }
   ngOnInit() {
-    this.guitarCards=this.guitarService.getGuitarCards();
   }
 }

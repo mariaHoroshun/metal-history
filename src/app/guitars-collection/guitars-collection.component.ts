@@ -12,10 +12,6 @@ export class GuitarsCollectionComponent implements OnInit {
   ngOnInit() {
     const elems = document.querySelectorAll('.carousel');
     M.Carousel.init(elems, {});
-    var instance = M.Carousel.init({
-      indicators: true
-    });
-
   }
 
 }
