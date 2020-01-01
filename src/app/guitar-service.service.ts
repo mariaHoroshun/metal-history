@@ -1,4 +1,4 @@
-import { GuitarCard } from './guitar-card/guitar-card';
+import { GuitarCard } from './guitars-collection/guitar-card';
 import { of, Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
 
@@ -7,25 +7,42 @@ import { Injectable } from '@angular/core';
 })
 export class GuitarService {
     getGuitarCards(): Observable<GuitarCard[]> {
-        let guitarCards: GuitarCard[] =
+        const guitarCards: GuitarCard[] =
             [
                 {
-                    photo: "url(/assets/guitars/rich.png)",
+                    photo: '/assets/guitars/rich.png',
                     description: 'Дейв Мастейн, B. C. Rich Bich'
                 },
                 {
-                    photo: 'url(/assets/guitars/rr.png)',
-                    description: 'Алекси Лайхо, Jackson RR Custom'
+                    photo: '/assets/guitars/rr.png',
+                    description: 'Алекси Лайхо, LTD ALEXI-600 GREENY'
                 },
                 {
-                    photo: 'url(/assets/guitars/kelly.png)',
-                    description: 'Марти Фридман, Jackson Kelly'
+                    photo: '/assets/guitars/chuck.png',
+                    description: 'Чак Шульдинер, B.C. Rich Steath'
                 },
                 {
-                    photo: 'url(/assets/guitars/warrior.png)',
-                    description: 'Чак Шульдинер, B. C. Rich Warrior'
+                    photo: '/assets/guitars/spector.png',
+                    description: 'Алекс Вебстер, Spector Alex Webster signature'
+                },
+                {
+                    photo: '/assets/guitars/kelly.png',
+                    description: 'Марти Фридман, Jackson Custom Shop Kelly'
+                },
+                {
+                    photo: '/assets/guitars/gibson.png',
+                    description: 'Джеймс Хэтфилд, 1984 Gibson Explorer'
+                },
+                {
+                    photo: '/assets/guitars/dean.png',
+                    description: 'Даймбэг Дэррел, Dean From Hell'
+                },
+                {
+                    photo: '/assets/guitars/ibanez.png',
+                    description: 'Пол Гилберт, Ibanez PGM300'
                 }
             ];
         return of(guitarCards);
     }
 }
+

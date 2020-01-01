@@ -28,14 +28,13 @@ import { BandCardComponent } from './band-card/band-card.component';
 import { GanreBandsComponent } from './ganre-bands/ganre-bands.component';
 import { GanreClipComponent } from './ganre-clip/ganre-clip.component';
 import { GuitarsCollectionComponent } from './guitars-collection/guitars-collection.component';
-import { GuitarCardComponent } from './guitar-card/guitar-card.component';
 
 
 const routes = [
   { path: '', component: HomePageComponent },
   { path: 'albums', component: AlbumPageComponent },
   { path: 'black', component: BlackComponent },
-  { path: 'doom', component: SubganrePageComponent }, //change 
+  { path: 'doom', component: SubganrePageComponent }, //change
   { path: 'death', component: DeathComponent },
   { path: 'thrash', component: GanrePageComponent } //change to thrash back!!!!
 ]
@@ -65,8 +64,7 @@ const routes = [
     BandCardComponent,
     GanreBandsComponent,
     GanreClipComponent,
-    GuitarsCollectionComponent,
-    GuitarCardComponent,
+    GuitarsCollectionComponent
   ],
   imports: [
     FontAwesomeModule,

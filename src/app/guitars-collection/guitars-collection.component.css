@@ -1,0 +1,12 @@
+.guitar-card{
+    background-color: #C4C4C4;
+    width: 500px;
+    margin-top: -50px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.guitarDescription{
+    font-size: 1.2em;
+}
