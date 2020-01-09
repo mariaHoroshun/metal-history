@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { GuitarCard } from './guitar-card';
 import { GuitarService } from '../guitar-service.service';
+import * as M from 'materialize-css/dist/js/materialize';
 
 @Component({
   selector: 'app-guitars-collection',

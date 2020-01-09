@@ -27,7 +27,7 @@
               "src/styles.css"
             ],
             "scripts": [
-             
+              "../node_modules/materialize-css/dist/js/materialize.js"
             ]
           },
           "configurations": {
@@ -122,6 +122,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "metal-history"
 }

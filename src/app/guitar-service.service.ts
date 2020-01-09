@@ -30,6 +30,10 @@ export class GuitarService {
                     description: 'Марти Фридман, Jackson Custom Shop Kelly'
                 },
                 {
+                    photo: '/assets/guitars/kerry.png',
+                    description: 'Керри Кинг, ESP KK Graphic'
+                },
+                {
                     photo: '/assets/guitars/gibson.png',
                     description: 'Джеймс Хэтфилд, 1984 Gibson Explorer'
                 },

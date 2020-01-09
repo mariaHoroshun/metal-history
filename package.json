@@ -26,6 +26,7 @@
     "@ng-bootstrap/ng-bootstrap": "^5.1.4",
     "@types/materialize-css": "^1.0.7",
     "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
