@@ -1,5 +1,5 @@
 .pc-tab{
-    margin: 20px 10%;
+    margin: 50px 10%;
 }
    
 .pc-tab > input,
@@ -28,12 +28,6 @@ label{
     background-color: #222222;
 }
 
-/*.pc-tab ul li label:active{
-    background-color: black;
-}*/
-/*.pc-tab ul li:not(:last-child) label{
-    border-right-width: 0;
-}*/
 .pc-tab section{
     clear: both;
 }

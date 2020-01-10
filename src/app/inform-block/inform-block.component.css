@@ -9,6 +9,7 @@
     margin-bottom: 80px;
     letter-spacing: 0.1em;
     text-transform:uppercase;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.842);
 }
 .textBlock{
     display: grid;

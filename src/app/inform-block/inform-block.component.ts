@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { GanreContent } from '../models/ganre-content';
+import { GanreContentService } from '../ganrecontent-service.servise';
+import { MetalType } from '../models/metal-type';
 
 @Component({
   selector: 'app-inform-block',
@@ -6,10 +9,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inform-block.component.css']
 })
 export class InformBlockComponent implements OnInit {
+  @Input()
+  header: string;
 
-  constructor() { }
+  @Input()
+  mainInfo: string;
 
-  ngOnInit() {
-  }
+  @Input()
+  backgroundImage: string;
 
+  ngOnInit() { }
 }

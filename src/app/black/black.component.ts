@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { GanreContent } from '../models/ganre-content';
+import { GanreContentService } from '../ganrecontent-service.servise';
+import { MetalType } from '../models/metal-type';
 
 @Component({
   selector: 'app-black',
@@ -7,9 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlackComponent implements OnInit {
 
-  constructor() { }
+  protected content: GanreContent;
 
-  ngOnInit() {
+  constructor(private ganreService: GanreContentService) {
   }
 
+  ngOnInit() {
+    this.ganreService.getGanreContent(MetalType.black).subscribe(res => this.content = res);
+  }
 }
