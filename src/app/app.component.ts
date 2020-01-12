@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { faCompactDisc, faHome, faSearch, faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faVk } from '@fortawesome/free-brands-svg-icons';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

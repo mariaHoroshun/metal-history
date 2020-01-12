@@ -13,6 +13,7 @@ export class GanrePageComponent implements OnInit {
   @Input()
   content: GanreContent;
 
+  /*inform */
   protected get header(): string {
     if (this.content) {
       return this.content.header;
@@ -26,6 +27,67 @@ export class GanrePageComponent implements OnInit {
       return this.content.mainInfo;
     }
 
+    return null;
+  }
+
+  protected get backgroundImage(): string {
+    if (this.content) {
+      return this.content.backgroundImage;
+    }
+
+    return null;
+  }
+
+  protected get mainImg(): string {
+    if (this.content) {
+      return this.content.mainImg;
+    }
+
+    return null;
+  }
+
+  /** sound*/
+
+  protected get soundImg(): string {
+    if (this.content) {
+      return this.content.soundImg;
+    }
+
+    return null;
+  }
+
+  protected get soundInfo(): string {
+    if (this.content) {
+      return this.content.soundInfo;
+    }
+    return null;
+  }
+  /** lyrics*/
+  protected get lyricsImg(): string {
+    if (this.content) {
+      return this.content.lyricsImg;
+    }
+    return null;
+  }
+
+  protected get lyricsInfo(): string {
+    if (this.content) {
+      return this.content.lyricsInfo;
+    }
+    return null;
+  }
+
+  protected get firstLyr(): string {
+    if (this.content) {
+      return this.content.firstLyr;
+    }
+    return null;
+  }
+
+  protected get secLyr(): string {
+    if (this.content) {
+      return this.content.secLyr;
+    }
     return null;
   }
 

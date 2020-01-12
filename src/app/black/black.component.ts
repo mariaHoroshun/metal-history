@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { GanreContent } from '../models/ganre-content';
 import { GanreContentService } from '../ganrecontent-service.servise';
 import { MetalType } from '../models/metal-type';
+import { NavBlock } from '../navigation-block/nav-block';
+import { NavService } from '../nav-service.service';
 
 @Component({
   selector: 'app-black',
@@ -11,11 +13,13 @@ import { MetalType } from '../models/metal-type';
 export class BlackComponent implements OnInit {
 
   protected content: GanreContent;
+  blackGanres: NavBlock[];
 
-  constructor(private ganreService: GanreContentService) {
+  constructor(private ganreService: GanreContentService, private navService: NavService) {
   }
 
   ngOnInit() {
     this.ganreService.getGanreContent(MetalType.black).subscribe(res => this.content = res);
+    this.navService.getNavItems(MetalType.black).subscribe(r => this.blackGanres = r);
   }
 }

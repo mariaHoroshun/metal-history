@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-sound',
@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sound.component.css']
 })
 export class SoundComponent implements OnInit {
+
+  @Input()
+  soundImg: string;
+
+  @Input()
+  soundInfo: string;
 
   constructor() { }
 

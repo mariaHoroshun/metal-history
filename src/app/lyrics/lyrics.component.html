@@ -1,45 +1,25 @@
 <div class="lyrics-block">
     <div class="lyrics-description">
         <div class="header">Лирика</div>
-        <div class="text"> Тематическая составляющая текстов песен в трэш-метале включает в себя насилие, вопросы жизни
-            и смерти, религию и общество, в частности, это война, бесчеловечные зверские чувства, скрытые в подсознании,
-            и представления о будущем коллапсе человеческой цивилизации.
-            <div class="showText" (click)="showInfo()">
+        <div class="text" [innerHTML]="lyricsInfo">
+        </div>
+        <div class="showText" (click)="showInfo()">
+            <div>
                 <fa-icon [icon]="faDown"></fa-icon>
             </div>
         </div>
     </div>
-    <div class="lyrics-pic"></div>
+    <div class="lyrics-pic" [style.backgroundImage]="lyricsImg"></div>
 </div>
 <div class="hidden-text" *ngIf="isShowed">
     <div class="song-lyrics">
         <pre>
-        Брат пойдёт на брата,
-        Проливая кровь по всей земле,
-        Лишая жизни за религиозные воззрения.
-        Это - нечто, чего я не понимаю.
-
-        Глупцы вроде меня, пересекающие море
-        И достигающие чужих краёв -
-        Спросите тихоню: "За свои убеждения
-        Убьёшь ли ты по Божьему повелению?"
-
-        -Megadeth-Holy Wars
+            <p [innerHTML]="firstLyr"></p>
         </pre>
     </div>
     <div class="song-lyrics">
         <pre>
-            Брат пойдёт на брата,
-            Проливая кровь по всей земле,
-            Лишая жизни за религиозные воззрения.
-            Это - нечто, чего я не понимаю.
-    
-            Глупцы вроде меня, пересекающие море
-            И достигающие чужих краёв -
-            Спросите тихоню: "За свои убеждения
-            Убьёшь ли ты по Божьему повелению?"
-    
-            -Megadeth-Holy Wars
+            <p [innerHTML]="secLyr"></p>
         </pre>
     </div>
     <div class="close" (click)="closeInfo()">

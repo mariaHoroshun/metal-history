@@ -113,10 +113,18 @@
     margin-bottom: 30px;
    
 }
+/*********************/
 .bottom-pic{
     margin-top: -300px;
     height: 1000px;
     background-image: url(/assets/images/BigPic.png);
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.bottom-pic:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    filter: sepia(20%);
 }

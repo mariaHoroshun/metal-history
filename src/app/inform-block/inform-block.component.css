@@ -10,6 +10,8 @@
     letter-spacing: 0.1em;
     text-transform:uppercase;
     text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.842);
+    background-image: url(/assets/backgrounds/kreatorLine.jpg);
+    background-position: center;
 }
 .textBlock{
     display: grid;
@@ -18,7 +20,7 @@
     margin-bottom: 70px;
 }
 .informText{
-    padding:10px 30px;
+    padding:20px 30px;
     background-color: #262626;
     font-size: 20px;
 }

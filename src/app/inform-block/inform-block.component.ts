@@ -1,7 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { GanreContent } from '../models/ganre-content';
-import { GanreContentService } from '../ganrecontent-service.servise';
-import { MetalType } from '../models/metal-type';
 
 @Component({
   selector: 'app-inform-block',
@@ -17,6 +14,9 @@ export class InformBlockComponent implements OnInit {
 
   @Input()
   backgroundImage: string;
+
+  @Input()
+  mainImg: string;
 
   ngOnInit() { }
 }

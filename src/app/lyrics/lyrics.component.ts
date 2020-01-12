@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { faCaretSquareDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -8,13 +8,25 @@ import { faCaretSquareDown, faChevronUp } from '@fortawesome/free-solid-svg-icon
 })
 export class LyricsComponent implements OnInit {
 
+  @Input()
+  lyricsInfo: string;
+
+  @Input()
+  lyricsImg: string;
+
+  @Input()
+  firstLyr: string;
+
+  @Input()
+  secLyr: string;
+
   faDown = faCaretSquareDown;
   faUp = faChevronUp;
   constructor() { }
 
+  isShowed = true;
   ngOnInit() {
   }
-  isShowed = true;
 
   showInfo() {
     this.isShowed = true;

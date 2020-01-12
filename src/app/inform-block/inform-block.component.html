@@ -1,11 +1,11 @@
 <div class="informBlock">
-    <h2 class="mainHeader" [ngStyle]="{'background-image':'url(/assets/backgrounds/kreatorLine.jpg)'}">
+    <h2 class="mainHeader" [style.backgroundImage]="backgroundImage">
         {{header}}
     </h2>
     <div class="textBlock">
-        <div class="informText">
-            {{mainInfo}}
+        <div class="informText" [innerHTML]="mainInfo">
+
         </div>
-        <div class="informPic"></div>
+        <div class="informPic" [style.backgroundImage]="mainImg"></div>
     </div>
 </div>

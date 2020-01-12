@@ -16,7 +16,6 @@ import { AlbumTimelineComponent } from './album-timeline/album-timeline.componen
 import { TimelineItemsComponent } from './timeline-items/timeline-items.component';
 import { CountryTabComponent } from './country-tab/country-tab.component';
 import { SpellingInfoComponent } from './spelling-info/spelling-info.component';
-import { DescriptionComponent } from './description/description.component';
 import { SoundComponent } from './sound/sound.component';
 import { LyricsComponent } from './lyrics/lyrics.component';
 import { AlbumBlockComponent } from './album-block/album-block.component';
@@ -28,15 +27,17 @@ import { BandCardComponent } from './band-card/band-card.component';
 import { GanreBandsComponent } from './ganre-bands/ganre-bands.component';
 import { GanreClipComponent } from './ganre-clip/ganre-clip.component';
 import { GuitarsCollectionComponent } from './guitars-collection/guitars-collection.component';
+import { NavigationBlockComponent } from './navigation-block/navigation-block.component';
+import { GanreListComponent } from './ganre-list/ganre-list.component';
 
 
 const routes = [
   { path: '', component: HomePageComponent },
   { path: 'albums', component: AlbumPageComponent },
   { path: 'black', component: BlackComponent },
-  { path: 'doom', component: SubganrePageComponent }, //change
+  { path: 'doom', component: DoomComponent },
   { path: 'death', component: DeathComponent },
-  { path: 'thrash', component: GanrePageComponent } //change to thrash back!!!!
+  { path: 'thrash', component: ThrashComponent }
 ]
 
 @NgModule({
@@ -53,7 +54,6 @@ const routes = [
     TimelineItemsComponent,
     CountryTabComponent,
     SpellingInfoComponent,
-    DescriptionComponent,
     SoundComponent,
     LyricsComponent,
     AlbumBlockComponent,
@@ -64,7 +64,9 @@ const routes = [
     BandCardComponent,
     GanreBandsComponent,
     GanreClipComponent,
-    GuitarsCollectionComponent
+    GuitarsCollectionComponent,
+    NavigationBlockComponent,
+    GanreListComponent
   ],
   imports: [
     FontAwesomeModule,

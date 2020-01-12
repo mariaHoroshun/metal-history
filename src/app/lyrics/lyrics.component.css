@@ -28,12 +28,15 @@
     margin-top: 40px;
 }
 .showText{
-    padding-top: 10px;
-    font-size: 30px;
+    padding-left: 10px;
+    font-size: 2em;
     transition: 0.3s;
 }
 .showText:hover{
     color:#7c7c7c;
+}
+.song-lyrics{
+    padding-left: 50px;
 }
 /*********************/
 .hidden-text{

@@ -6,7 +6,8 @@
         </a>
         <div>
             <a (click)="scrollToElement(albums)" class="ButtonLink">Альбомы <fa-icon [icon]="faRight"></fa-icon></a>
-            <a href="#" class="ButtonLink">Жанры <fa-icon [icon]="faRight"></fa-icon></a>
+            <a (click)="scrollToElement(ganres)" class="ButtonLink">Жанры <fa-icon [icon]="faRight"></fa-icon>
+            </a>
         </div>
     </div>
     <div class="rectangles"></div>
@@ -40,6 +41,11 @@
         <app-guitars-collection></app-guitars-collection>
     </section>
 </div>
+<section>
+    <div #ganres class="container">
+        <app-ganre-list></app-ganre-list>
+    </div>
+</section>
 <section>
     <div #albums>
         <app-album-timeline></app-album-timeline>

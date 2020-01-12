@@ -8,6 +8,12 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.sound-pic:hover{
+    opacity: 1;
+    transform: scale(1.05);
 }
 .sound-description{
     padding: 20px 35px 15px 20px;
