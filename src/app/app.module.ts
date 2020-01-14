@@ -29,6 +29,18 @@ import { GanreClipComponent } from './ganre-clip/ganre-clip.component';
 import { GuitarsCollectionComponent } from './guitars-collection/guitars-collection.component';
 import { NavigationBlockComponent } from './navigation-block/navigation-block.component';
 import { GanreListComponent } from './ganre-list/ganre-list.component';
+import { BrutalDeathComponent } from './subganres/deathGanres/brutal-death/brutal-death.component';
+import { OldschoolDeathComponent } from './subganres/deathGanres/oldschool-death/oldschool-death.component';
+import { MelodicDeathComponent } from './subganres/deathGanres/melodic-death/melodic-death.component';
+import { FirstBlackComponent } from './subganres/blackGanres/first-black/first-black.component';
+import { SecondBlackComponent } from './subganres/blackGanres/second-black/second-black.component';
+import { DsbmComponent } from './subganres/blackGanres/dsbm/dsbm.component';
+import { FuneralDoomComponent } from './subganres/doomGanres/funeral-doom/funeral-doom.component';
+import { EpicDoomComponent } from './subganres/doomGanres/epic-doom/epic-doom.component';
+import { OldschoolDoomComponent } from './subganres/doomGanres/oldschool-doom/oldschool-doom.component';
+import { OldschoolThrashComponent } from './subganres/thrashGanres/oldschool-thrash/oldschool-thrash.component';
+import { CrossoverThrashComponent } from './subganres/thrashGanres/crossover-thrash/crossover-thrash.component';
+import { ProgThrashComponent } from './subganres/thrashGanres/prog-thrash/prog-thrash.component';
 
 
 const routes = [
@@ -37,7 +49,22 @@ const routes = [
   { path: 'black', component: BlackComponent },
   { path: 'doom', component: DoomComponent },
   { path: 'death', component: DeathComponent },
-  { path: 'thrash', component: ThrashComponent }
+  { path: 'thrash', component: ThrashComponent },
+  { path: 'thrash/prog', component: ProgThrashComponent },
+  { path: 'thrash/oldschool', component: OldschoolThrashComponent },
+  { path: 'thrash/crossover', component: CrossoverThrashComponent },
+  //** */
+  { path: 'doom/funeral', component: FuneralDoomComponent },
+  { path: 'doom/oldschool', component: OldschoolDoomComponent },
+  { path: 'dooom/epic', component: EpicDoomComponent },
+  //** */
+  { path: 'black/first', component: FirstBlackComponent },
+  { path: 'black/second', component: SecondBlackComponent },
+  { path: 'black/dsbm', component: DsbmComponent },
+  //** */
+  { path: 'death/melodic', component: MelodicDeathComponent },
+  { path: 'death/oldschool', component: OldschoolDeathComponent },
+  { path: 'death/brutal', component: BrutalDeathComponent }
 ]
 
 @NgModule({
@@ -66,7 +93,19 @@ const routes = [
     GanreClipComponent,
     GuitarsCollectionComponent,
     NavigationBlockComponent,
-    GanreListComponent
+    GanreListComponent,
+    BrutalDeathComponent,
+    OldschoolDeathComponent,
+    MelodicDeathComponent,
+    FirstBlackComponent,
+    SecondBlackComponent,
+    DsbmComponent,
+    FuneralDoomComponent,
+    EpicDoomComponent,
+    OldschoolDoomComponent,
+    OldschoolThrashComponent,
+    CrossoverThrashComponent,
+    ProgThrashComponent
   ],
   imports: [
     FontAwesomeModule,

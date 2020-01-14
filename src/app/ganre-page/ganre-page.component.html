@@ -2,7 +2,9 @@
 <div class="container">
   <app-inform-block [header]="header" [mainInfo]="mainInfo" [backgroundImage]="backgroundImage" [mainImg]="mainImg">
   </app-inform-block>
-  <app-country-tab></app-country-tab>
+  <app-country-tab [americanBands]="americanBands" [russianBands]="russianBands" [germanBands]="germanBands"
+    [britishBands]="britishBands" [americanImg]="americanImg" [russianImg]="russianImg" [germanImg]="germanImg"
+    [britishImg]="britishImg"></app-country-tab>
   <app-sound [soundImg]="soundImg" [soundInfo]="soundInfo"></app-sound>
   <app-lyrics [lyricsImg]="lyricsImg" [lyricsInfo]="lyricsInfo" [firstLyr]="firstLyr" [secLyr]="secLyr"></app-lyrics>
 </div>

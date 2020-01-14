@@ -1,5 +1,5 @@
 <div class="ganres" *ngFor="let item of navItems">
-    <div class="navBlock" [style.backgroundImage]="item.navBackground">
+    <div class="navBlock" [style.backgroundImage]="item.navBackground" [routerLink]="item.navLink">
         {{item.ganreName}}
     </div>
 </div>

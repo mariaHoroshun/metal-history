@@ -91,6 +91,64 @@ export class GanrePageComponent implements OnInit {
     return null;
   }
 
+  /**bands */
+
+  protected get americanBands(): string[] {
+    if (this.content) {
+      return this.content.americanBands;
+    }
+    return null;
+  }
+
+  protected get russianBands(): string[] {
+    if (this.content) {
+      return this.content.russianBands;
+    }
+    return null;
+  }
+
+  protected get britishBands(): string[] {
+    if (this.content) {
+      return this.content.britishBands;
+    }
+    return null;
+  }
+
+  protected get germanBands(): string[] {
+    if (this.content) {
+      return this.content.germanBands;
+    }
+    return null;
+  }
+
+  protected get americanImg(): string {
+    if (this.content) {
+      return this.content.americanImg;
+    }
+    return null;
+  }
+
+  protected get germanImg(): string {
+    if (this.content) {
+      return this.content.germanImg;
+    }
+    return null;
+  }
+
+  protected get russianImg(): string {
+    if (this.content) {
+      return this.content.russianImg;
+    }
+    return null;
+  }
+
+  protected get britishImg(): string {
+    if (this.content) {
+      return this.content.britishImg;
+    }
+    return null;
+  }
+
   ngOnInit() {
   }
 }

@@ -38,13 +38,20 @@ label{
 }
 .tableBlock{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.tableBlock li{
+    font-size: 1.3em;
+    list-style: square outside;
 }
 .tabTitle{
     font-size: 1.5em;
 }
 .tablePic{
     background-image: url(/assets/images/slayer.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .icon{
     margin: 0 0;

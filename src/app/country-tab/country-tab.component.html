@@ -32,44 +32,44 @@
             <div class="tableBlock">
                 <div>
                     <p class="tabTitle">Немецкие группы</p>
-                    <p>111111111someTEXT<br> Donec vulputate ante ac ligula vestibulum, id mollis diam commodo. Integer
-                        at consequat magna. Sed elit sem, dictum nec porttitor ac, ultrices id enim. lectus sit amet
-                        tellus vehicula faucibus. Etiam sed leo ac erat tempor feugiat at quis ip</p>
+                    <ul>
+                        <li *ngFor="let i of germanBands">{{i}}</li>
+                    </ul>
                 </div>
-                <div class="tablePic"></div>
+                <div class="tablePic" [style.backgroundImage]="germanImg"></div>
             </div>
         </div>
         <div class="tab2">
             <div class="tableBlock">
                 <div>
                     <p class="tabTitle">Американские группы</p>
-                    <p>2222221someTEXT<br> Donec vulputate ante ac ligula vestibulum, id mollis diam commodo. Integer at
-                        consequat magna. Sed elit sem, dictum nec porttitor ac, ultrices id enim. lectus sit amet tellus
-                        vehicula faucibus. Etiam sed leo ac erat tempor feugiat at quis ip</p>
+                    <ul>
+                        <li *ngFor="let i of americanBands">{{i}}</li>
+                    </ul>
                 </div>
-                <div class="tablePic"></div>
+                <div class="tablePic" [style.backgroundImage]="americanImg"></div>
             </div>
         </div>
         <div class="tab3">
             <div class="tableBlock">
                 <div>
                     <p class="tabTitle">Русские группы</p>
-                    <p>111111111someTEXT<br> Donec vulputate ante ac ligula vestibulum, id mollis diam commodo. Integer
-                        at consequat magna. Sed elit sem, dictum nec porttitor ac, ultrices id enim. lectus sit amet
-                        tellus vehicula faucibus. Etiam sed leo ac erat tempor feugiat at quis ip</p>
+                    <ul>
+                        <li *ngFor="let i of russianBands">{{i}}</li>
+                    </ul>
                 </div>
-                <div class="tablePic"></div>
+                <div class="tablePic" [style.backgroundImage]="russianImg"></div>
             </div>
         </div>
         <div class="tab4">
             <div class="tableBlock">
                 <div>
                     <p class="tabTitle">Британские группы</p>
-                    <p>4444444someTEXT<br> Donec vulputate ante ac ligula vestibulum, id mollis diam commodo. Integer at
-                        consequat magna. Sed elit sem, dictum nec porttitor ac, ultrices id enim. lectus sit amet tellus
-                        vehicula faucibus. Etiam sed leo ac erat tempor feugiat at quis ip</p>
+                    <ul>
+                        <li *ngFor="let i of britishBands">{{i}}</li>
+                    </ul>
                 </div>
-                <div class="tablePic"></div>
+                <div class="tablePic" [style.backgroundImage]="britishImg"></div>
             </div>
         </div>
     </section>

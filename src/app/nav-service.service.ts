@@ -34,7 +34,7 @@ export class NavService {
     private getThrasNav(): NavBlock[] {
         return [
             {
-                navLink: '/',
+                navLink: 'thrash',
                 navBackground: 'url(/assets/backgrounds/thrash.jpg)',
                 ganreName: 'thrash'
             },
@@ -59,19 +59,19 @@ export class NavService {
     private getDeathNav(): NavBlock[] {
         return [
             {
-                navLink: '/',
+                navLink: 'death',
                 navBackground: 'url(/assets/backgrounds/death.jpg)',
                 ganreName: "death"
             },
             {
                 navLink: '/',
-                navBackground: 'url(/assets/backgrounds/brutalGanre.jpg)',
+                navBackground: 'url(/assets/backgrounds/cannibal.jpg)',
                 ganreName: "brutal"
             },
             {
                 navLink: '/',
                 navBackground: 'url(/assets/backgrounds/oldDeathGanre.jpg)',
-                ganreName: "oldSchool"
+                ganreName: "old School"
             },
             {
                 navLink: '/',
@@ -84,7 +84,7 @@ export class NavService {
     private getDoomNav(): NavBlock[] {
         return [
             {
-                navLink: "/",
+                navLink: "doom",
                 navBackground: 'url(/assets/backgrounds/doom.jpg)',
                 ganreName: "doom"
             },
@@ -109,7 +109,7 @@ export class NavService {
     private getBlackNav(): NavBlock[] {
         return [
             {
-                navLink: "/",
+                navLink: "black",
                 navBackground: 'url(/assets/backgrounds/black.jpg)',
                 ganreName: "black"
             },
