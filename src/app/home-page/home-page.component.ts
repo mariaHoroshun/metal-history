@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {faCaretSquareDown, faAngleRight, faInfoCircle, faSmile} from '@fortawesome/free-solid-svg-icons';
+import { faCaretSquareDown, faAngleRight, faInfoCircle, faSmile } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home-page',
@@ -12,10 +12,10 @@ export class HomePageComponent implements OnInit {
   faDown = faCaretSquareDown;
   faRight = faAngleRight;
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
+
   scrollToElement(e) {
-    e.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    e.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
   }
 
 }

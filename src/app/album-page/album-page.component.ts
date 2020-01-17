@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AlbumsService } from '../albums-service.service';
+import { AlbumItem } from '../album-block/albumItem';
 
 @Component({
   selector: 'app-album-page',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlbumPageComponent implements OnInit {
 
-  constructor() { }
+  myAlbums: AlbumItem[];
+  searchStr = '';
+
+  constructor(private albumsServise: AlbumsService) { }
 
   ngOnInit() {
+    this.albumsServise.getAlbums().subscribe(result => this.myAlbums = result.results);
   }
 
 }

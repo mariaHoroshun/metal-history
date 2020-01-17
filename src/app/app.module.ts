@@ -41,6 +41,11 @@ import { OldschoolDoomComponent } from './subganres/doomGanres/oldschool-doom/ol
 import { OldschoolThrashComponent } from './subganres/thrashGanres/oldschool-thrash/oldschool-thrash.component';
 import { CrossoverThrashComponent } from './subganres/thrashGanres/crossover-thrash/crossover-thrash.component';
 import { ProgThrashComponent } from './subganres/thrashGanres/prog-thrash/prog-thrash.component';
+import { FormsModule } from '@angular/forms';
+import { AlbumsService } from './albums-service.service';
+import { HttpClientModule } from '@angular/common/http';
+import { SearchPipe } from './search.pipe';
+import { SafePipe } from './sanitizeHtml.pipe';
 
 
 const routes = [
@@ -50,21 +55,21 @@ const routes = [
   { path: 'doom', component: DoomComponent },
   { path: 'death', component: DeathComponent },
   { path: 'thrash', component: ThrashComponent },
-  { path: 'thrash/prog', component: ProgThrashComponent },
-  { path: 'thrash/oldschool', component: OldschoolThrashComponent },
-  { path: 'thrash/crossover', component: CrossoverThrashComponent },
+  { path: 'prog', component: ProgThrashComponent },
+  { path: 'oldschoolThrash', component: OldschoolThrashComponent },
+  { path: 'crossover', component: CrossoverThrashComponent },
   //** */
-  { path: 'doom/funeral', component: FuneralDoomComponent },
-  { path: 'doom/oldschool', component: OldschoolDoomComponent },
-  { path: 'dooom/epic', component: EpicDoomComponent },
+  { path: 'funeral', component: FuneralDoomComponent },
+  { path: 'oldschoolDoom', component: OldschoolDoomComponent },
+  { path: 'epic', component: EpicDoomComponent },
   //** */
-  { path: 'black/first', component: FirstBlackComponent },
-  { path: 'black/second', component: SecondBlackComponent },
-  { path: 'black/dsbm', component: DsbmComponent },
+  { path: 'first', component: FirstBlackComponent },
+  { path: 'second', component: SecondBlackComponent },
+  { path: 'dsbm', component: DsbmComponent },
   //** */
-  { path: 'death/melodic', component: MelodicDeathComponent },
-  { path: 'death/oldschool', component: OldschoolDeathComponent },
-  { path: 'death/brutal', component: BrutalDeathComponent }
+  { path: 'melodic', component: MelodicDeathComponent },
+  { path: 'oldschoolDeath', component: OldschoolDeathComponent },
+  { path: 'brutal', component: BrutalDeathComponent }
 ]
 
 @NgModule({
@@ -105,15 +110,19 @@ const routes = [
     OldschoolDoomComponent,
     OldschoolThrashComponent,
     CrossoverThrashComponent,
-    ProgThrashComponent
+    ProgThrashComponent,
+    SearchPipe,
+    SafePipe
   ],
   imports: [
     FontAwesomeModule,
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [AlbumsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

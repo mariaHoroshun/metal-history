@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { AlbumItem } from './albumItem';
 
 @Component({
   selector: 'app-album-block',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlbumBlockComponent implements OnInit {
 
-  constructor() { }
+  @Input()
+  album: AlbumItem;
 
   ngOnInit() {
   }

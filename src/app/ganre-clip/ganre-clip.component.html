@@ -1,15 +1,7 @@
-<div class="header">Клипы old school thrash metal групп </div>
-<div class="carousel carousel-slider" data-indicators="true">
-    <div class="carousel-item"> <iframe width="560" height="315" src="https://www.youtube.com/embed/4kSvN1dQjxc"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe></div>
-    <div class="carousel-item second"><iframe width="560" height="315" src="https://www.youtube.com/embed/D5xlcSRbSiI"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe></div>
-    <div class="carousel-item first"><iframe width="560" height="315" src="https://www.youtube.com/embed/pTYHYglem-M"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe></div>
-    <div class="carousel-item second"><iframe width="560" height="315" src="https://www.youtube.com/embed/DECp8LKurKs"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe></div>
+<div class="header">Клипы {{header}} групп </div>
+<div class="carousel carousel-slider">
+        <div class="carousel-item" *ngFor="let i of videos">
+                <iframe width="560" height="315" [src]="i | safe" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
 </div>

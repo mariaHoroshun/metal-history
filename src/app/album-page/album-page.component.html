@@ -1,3 +1,11 @@
 <div class="container">
-    <app-album-block></app-album-block>
+    <div class="row">
+        <div class="input-field col s6">
+            <input id="name" class="validate" [(ngModel)]="searchStr">
+            <label class="active" for="name">Поиск по названию:</label>
+        </div>
+    </div>
+    <div class="row">
+        <app-album-block *ngFor="let i of myAlbums| search:searchStr" [album]="i"></app-album-block>
+    </div>
 </div>

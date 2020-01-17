@@ -7,4 +7,5 @@ export class AlbumItem {
     ganre: string;
     coverImg: string;
     bandImg: string;
+    myLink: string;
 }

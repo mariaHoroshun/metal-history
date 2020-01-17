@@ -6,8 +6,9 @@
 .name{
     font-family: Scada;
     grid-column: 1 / 8;
-    font-size: 2em;
+    font-size: 2.2em;
     padding-bottom: 10px;
+    letter-spacing: 0.05em;
 }
 .picture{
     height: 400px;

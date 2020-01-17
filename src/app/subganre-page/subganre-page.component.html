@@ -1,6 +1,5 @@
-<app-navigation></app-navigation>
 <div class="container">
-    <app-inform-block></app-inform-block>
-    <app-ganre-clip></app-ganre-clip>
+    <app-inform-block [header]="header" [mainInfo]="mainInfo" [backgroundImage]="backgroundImage" [mainImg]="mainImg">
+    </app-inform-block>
+    <app-ganre-clip [videos]="videos" [header]="header"></app-ganre-clip>
 </div>
-<app-ganre-bands></app-ganre-bands>
