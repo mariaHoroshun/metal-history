@@ -1,4 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { SubganreContent } from 'src/app/models/subganre-content';
+import { NavBlock } from 'src/app/navigation-block/nav-block';
+import { SubganreContentService } from 'src/app/subganrecontent-service.service';
+import { NavService } from 'src/app/nav-service.service';
+import { MetalSubganres } from 'src/app/models/metal-subganres';
+import { MetalType } from 'src/app/models/metal-type';
 
 @Component({
   selector: 'app-oldschool-doom',
@@ -7,9 +13,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OldschoolDoomComponent implements OnInit {
 
-  constructor() { }
+  protected content: SubganreContent;
+  doomGanres: NavBlock[];
 
-  ngOnInit() {
+  constructor(private subganreService: SubganreContentService, private navService: NavService) {
   }
 
+  ngOnInit() {
+    this.subganreService.getSubganreContent(MetalSubganres.oldschoolDoom).subscribe(res => this.content = res);
+    this.navService.getNavItems(MetalType.doom).subscribe(r => this.doomGanres = r);
+  }
 }

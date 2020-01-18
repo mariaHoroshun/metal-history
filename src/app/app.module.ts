@@ -46,6 +46,7 @@ import { AlbumsService } from './albums-service.service';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchPipe } from './search.pipe';
 import { SafePipe } from './sanitizeHtml.pipe';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 const routes = [
@@ -69,7 +70,9 @@ const routes = [
   //** */
   { path: 'melodic', component: MelodicDeathComponent },
   { path: 'oldschoolDeath', component: OldschoolDeathComponent },
-  { path: 'brutal', component: BrutalDeathComponent }
+  { path: 'brutal', component: BrutalDeathComponent },
+  /** */
+  { path: '**', component: NotFoundComponent },
 ]
 
 @NgModule({
@@ -112,7 +115,8 @@ const routes = [
     CrossoverThrashComponent,
     ProgThrashComponent,
     SearchPipe,
-    SafePipe
+    SafePipe,
+    NotFoundComponent
   ],
   imports: [
     FontAwesomeModule,

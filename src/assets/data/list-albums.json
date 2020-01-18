@@ -6,10 +6,10 @@
             "year": "1985",
             "country": "CША",
             "members": "Дэйв Мастейн, Дэвид Эллефсон, Крис Поланд, Гар Самуэльсон",
-            "ganre": "thrash",
+            "ganre": "old school thrash metal",
             "coverImg": "url(/assets/albums/killingCover.jpg)",
             "bandImg": "url(/assets/albums/killingBand.jpg)",
-            "myLink": "/thrash"
+            "myLink": "/oldschoolThrash"
         },
         {
             "name": "Severed Survival",
@@ -17,10 +17,10 @@
             "year": "1989",
             "country": "США",
             "members": " Крис Рейферт,Дэни Коралес, Стив Дигорджио, Эрик Культер",
-            "ganre": "death",
+            "ganre": "old school death metal",
             "coverImg": "url(/assets/albums/severedCover.jpg)",
             "bandImg": "url(/assets/albums/severedBand.jpg)",
-            "myLink": "/death"
+            "myLink": "/oldschoolDeath"
         },
         {
             "name": "Under the Sign of the Black Mark",
@@ -28,10 +28,10 @@
             "year": "1987",
             "country": "США",
             "members": "Under the Sign of the Black Mark",
-            "ganre": "black",
+            "ganre": "first wave black metal",
             "coverImg": "url(/assets/albums/underCover.jpg)",
             "bandImg": "url(/assets/albums/underBand.jpg)",
-            "myLink": "/black"
+            "myLink": "/first"
         },
         {
             "name": "Hatebreeder",
@@ -40,8 +40,8 @@
             "country": "Финляндия",
             "members": "Алекси Лайхо, Александр Куоппала, Янне Вирман, Хенкка Сеппяля, Яска Раатикайнен",
             "ganre": "melodic death metal",
-            "coverImg": "url(/assets/albums/killingCover.jpg)",
-            "bandImg": "url(/assets/albums/killingBand.jpg)",
+            "coverImg": "url(/assets/albums/hateCover.jpg)",
+            "bandImg": "url(/assets/albums/hateBand.jpg)",
             "myLink": "/melodic"
         },
         {
@@ -50,9 +50,9 @@
             "year": "1998",
             "country": "США",
             "members": "Крис Хакис, Мэт Пайк, Ал Цинерос",
-            "ganre": "doom",
-            "coverImg": "url(/assets/albums/severedCover.jpg)",
-            "bandImg": "url(/assets/albums/severedBand.jpg)",
+            "ganre": "doom metal",
+            "coverImg": "url(/assets/albums/dopeCover.jpg)",
+            "bandImg": "url(/assets/albums/dopeBand.jpg)",
             "myLink": "/doom"
         },
         {
@@ -62,8 +62,8 @@
             "country": "США",
             "members": "Джон Тарди, Аллен Вест, Тревор Перес, Франк Ваткинс, Дональд Тарди",
             "ganre": " old school death metal",
-            "coverImg": "url(/assets/albums/underCover.jpg)",
-            "bandImg": "url(/assets/albums/underBand.jpg)",
+            "coverImg": "url(/assets/albums/slowlyCover.jpg)",
+            "bandImg": "url(/assets/albums/slowlyBand.jpg)",
             "myLink": "/oldschoolDeath"
         },
         {
@@ -76,6 +76,39 @@
             "coverImg": "url(/assets/albums/bondedCover.jpg)",
             "bandImg": "url(/assets/albums/bondedBand.jpg)",
             "myLink": "/oldschoolDeath"
+        },
+        {
+            "name": "Effigy of the Forgotten",
+            "band": "Suffocation",
+            "year": "1991",
+            "country": "США",
+            "members": "Фрэнк Мюллен,Теранс Хоббс, Дуг Керрит, Джош Барон, Майк Смит",
+            "ganre": "brutal death metal",
+            "coverImg": "url(/assets/albums/effigyCover.jpg)",
+            "bandImg": "url(/assets/albums/effigyBand.jpg)",
+            "myLink": "/brutal"
+        },
+        {
+            "name": "Killing Technology",
+            "band": "Voivod",
+            "year": "1987",
+            "country": "Канада",
+            "members": "Дэнис Белангер, Денис Дамур, Ивс Терью, Мишель Ланжевен",
+            "ganre": "progressive thrash metal",
+            "coverImg": "url(/assets/albums/techCover.jpg)",
+            "bandImg": "url(/assets/albums/techBand.jpg)",
+            "myLink": "/prog"
+        },
+        {
+            "name": "Agent Orange",
+            "band": "Sodom",
+            "year": "1989",
+            "country": "Германия",
+            "members": "Томас Зух, Фрэнк Годжик,Кристиан Дудек",
+            "ganre": " old school thrash metal",
+            "coverImg": "url(/assets/albums/agentCover.jpg)",
+            "bandImg": "url(/assets/albums/agentBand.jpg)",
+            "myLink": "/oldschoolThrash"
         }
     ]
 }

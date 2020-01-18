@@ -1,0 +1,31 @@
+.myError{
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    margin: 200px 100px;
+}
+.picErr{
+    background-image: url('/assets/images/broken-record.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: change-size 4s ease infinite;
+}
+p{
+    font-size: 5em;
+    font-family: Scada;
+    text-transform: uppercase;
+}
+.text{
+    padding: 30px 0px;
+}
+.dark{
+    background-color: #48344e;
+}
+@keyframes change-size {   
+    0% {     
+      transform: scale(1);  
+    }   
+    50% {     
+      transform: scale(1.07);   
+    } 
+  }
