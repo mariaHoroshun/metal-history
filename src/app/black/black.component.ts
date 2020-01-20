@@ -12,7 +12,7 @@ import { NavService } from '../nav-service.service';
 })
 export class BlackComponent implements OnInit {
 
-  protected content: GanreContent;
+  public content: GanreContent;
   blackGanres: NavBlock[];
 
   constructor(private ganreService: GanreContentService, private navService: NavService) {

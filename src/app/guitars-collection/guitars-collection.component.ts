@@ -9,7 +9,7 @@ import * as M from 'materialize-css/dist/js/materialize';
   styleUrls: ['./guitars-collection.component.css']
 })
 export class GuitarsCollectionComponent implements OnInit {
-  protected guitarCards: GuitarCard[];
+  public guitarCards: GuitarCard[];
 
   constructor(private guitarService: GuitarService) { }
 

@@ -6,12 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./country-tab.component.css']
 })
 export class CountryTabComponent implements OnInit {
-  protected German = 'german';
-  protected Usa = 'usa';
-  protected Russia = 'russia';
-  protected England = 'england';
+  German = 'german';
+  Usa = 'usa';
+  Russia = 'russia';
+  England = 'england';
 
-  protected currentTab: string = this.German;
+  currentTab: string = this.German;
 
   @Input()
   americanBands: string[];
@@ -42,11 +42,11 @@ export class CountryTabComponent implements OnInit {
   ngOnInit() {
   }
 
-  protected selectTab(tab: string) {
+  public selectTab(tab: string) {
     this.currentTab = tab;
   }
 
-  protected isActive(tab: string): boolean {
+  public isActive(tab: string): boolean {
     return this.currentTab === tab;
   }
 

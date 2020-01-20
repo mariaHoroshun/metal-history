@@ -65,80 +65,80 @@ export class SubganreContentService {
 
     private getCrossoverContent(): SubganreContent {
         return {
-            backgroundImage: 'url(/assets/backgrounds/blackLine.jpg)',
+            backgroundImage: 'url(/assets/backgrounds/crossoverLine.jpg)',
             header: 'crossover thrash',
             mainInfo: 'Кроссовер трэш — музыкальный стиль, который является одной из форм трэш метала или хардкор панка, оказавших влияние друг на друга, либо является их смесью. Кроссовер представляет собой одно из направлений панк метала. Термин прижился после выхода в 1987 году альбома «Crossover» группы D.R.I.' + ' <br/>' + 'Такое смешение жанров получалось вполне естественным, поскольку и хардкор, и метал насыщенны риффами, и часто, но не исключительно, исполняются в очень быстром темпе. Повышая свою технику игры, представители метал-сцены создают новый жанр, все дальше отдаляясь от хардкора, который ориентирован на быстрый темп и короткие песни.' + ' <br/>' + 'Кроссовер не утратил популярность и в наше время, он очень популярен в США, Бразилии и Европе. Представителями кроссовер трэш сцены являются Municipal Waste, Toxic Holocaust, Wehrmaht, Attitude Adjustment, Cross Examination, Ratos De Porão, Short Sharp Shock и тд.',
-            mainImg: 'url(/assets/bands/blackMain.jpg)',
+            mainImg: 'url(/assets/backgrounds/crossoverBand.jpg)',
             videos: ['https://www.youtube.com/embed/S7wntm7QVXQ', 'https://www.youtube.com/embed/-nL_-Yjztsc']
         };
     }
 
     private getProgContent(): SubganreContent {
         return {
-            backgroundImage: 'url(/assets/backgrounds/blackLine.jpg)',
+            backgroundImage: 'url(/assets/backgrounds/progLine.jpg)',
             header: 'progressive thrash',
             mainInfo: 'Прогрессивный метал или прог-метал — подстиль метала. Этот жанр основывается на прогрессивном роке и включает в себя сложные композиционные структуры, причудливые музыкальные размеры и виртуозную технику игры на музыкальных инструментах. Высокий уровень профессионализма музыкантов часто комбинируется с лирическим в форме концептуальных эпических текстов. Например, творчество Канадской группы Voivod полностью посвящено инопланетной и космической тематике.' + ' <br/>' + 'Прогрессивный трэш метал отличается от обычного трэша использованием брэйкдаунов, диссонансов и чистого вокала. Также, в прог-метале басовые партии прописаны лучше и отчетливо слышны.',
-            mainImg: 'url(/assets/bands/blackMain.jpg)',
+            mainImg: 'url(/assets/backgrounds/progBand.jpg)',
             videos: ['https://www.youtube.com/embed/J7dLBw11xtQ', 'https://www.youtube.com/embed/pTYHYglem-M', 'https://www.youtube.com/embed/iZQuscTxSk4']
         };
     }
 
     private getOldschoolDeathContent(): SubganreContent {
         return {
-            backgroundImage: 'url(/assets/backgrounds/blackLine.jpg)',
+            backgroundImage: 'url(/assets/backgrounds/oldDeathLine.jpg)',
             header: 'Old school death',
             mainInfo: 'Первые дэт метал группы вдохновлялись творчством групп Slayer и Sodom. Обладая высокой скоростью исполнения, предельной жёсткостью звучания, а также активно эксплуатируя темы о смерти, войне, насилии и сатанизме, группы стали культовыми и послужили развитию раннего дэт метала.' + ' <br/>' + 'В 1983 году появилась группа Possessed. Они были первыми, кто использовал в манере пения гроулинг (приём экстремального вокала, суть которого заключается в звукоизвлечении за счёт резонирующей гортани). Изменение в манере пения и утяжеление гитарных рифов послужили образованию более экстремального жанра, чем трэш - дет метала.' + ' <br/>' + 'В начале развития дэт-метал характеризовался простой композиционной структурой и небогатым мелодизмом, но в дальнейшем, в процессе развития стиля и слияния его с другими музыкальными жанрами, музыка усложнялась.',
-            mainImg: 'url(/assets/bands/blackMain.jpg)',
+            mainImg: 'url(/assets/backgrounds/oldDeathBand.jpg)',
             videos: ['https://www.youtube.com/embed/8ggMU2uYCa4', 'https://www.youtube.com/embed/FMnTQEvHb1A', 'https://www.youtube.com/embed/ZQICnj5pPKs', '']
         };
     }
 
     private getBrutalContent(): SubganreContent {
         return {
-            backgroundImage: 'url(/assets/backgrounds/blackLine.jpg)',
+            backgroundImage: 'url(/assets/backgrounds/brutalLine.jpg)',
             header: 'brutal death',
             mainInfo: 'Песенные структуры брутального дэт метала совмещают в себе аспекты песенных структур горграйнда и дэт метала. Характерным вокалом для брутального дэт метала является гроулинг и ему подобные стили. Тексты песен в основном на кровавую тематику, поются медленно и прерывисто, и как правило, вслед за гитарными риффами. Гитарные партии, как правило, тяжёлые, ритмичные или сверхбыстрые.' + '<br/>' + 'Брутальный дэт метал начал развиваться в ранние 90е, как поджанр дэт метала. Началом зарождения стиля являются ранние работы (Eaten Back to Life и Butchered at Birth) группы Cannibal Corpse, которая начала акцентировать игру на техничности и тяжести звучания.' + ' <br/>' + 'Особенностью стиля брутального дэт метала являются шокирующие обложки альбомов. Алекс Вебстер, басист Cannibal Corpse, говорит:«Когда кто-нибудь не имеющий понятия о дэт-метале впервые видит обложку одного из наших альбомов, он должен быть шокирован, а если нет, значит мы сделали плохую обложку.»',
-            mainImg: 'url(/assets/bands/blackMain.jpg)',
+            mainImg: 'url(/assets/backgrounds/brutalBand.jpg)',
             videos: ['https://www.youtube.com/embed/dFTUkFyO4ro', 'https://www.youtube.com/embed/IJkMrl4AG8w']
         };
     }
 
     private getMelodicContent(): SubganreContent {
         return {
-            backgroundImage: 'url(/assets/backgrounds/blackLine.jpg)',
+            backgroundImage: 'url(/assets/backgrounds/melodicLine.jpg)',
             header: 'Melodic death',
             mainInfo: 'Мелодичный дэт метал — поджанр дэт метала, отличающийся выраженной мелодичностью.Довольно близок к пауэр и спид металу по звучанию.Жанр отличается от традиционного дэт метала частым использованием чистого вокала, использованием клавишных, большим разнообразием гитарных риффов, близких к трэш- металу и спид - металу, частотой и мелодичностью соло - партий.' + '<br/>' + 'Родоначальниками жанра считают английский коллектив Carcass -«Heartwork»(1993) и Necroticism – Descanting the Insalubrious(1991).' + ' <br/> ' + 'Большую популярность мелодичный дэт метал сыскал в Скандинавских странах.Kalmah, Children of Bodom, Norther, Amon Amarth, Arch Enemy - отличные представители скандинавской школы метала.',
-            mainImg: 'url(/assets/bands/blackMain.jpg)',
+            mainImg: 'url(/assets/backgrounds/melodicBand.jpg)',
             videos: ['https://www.youtube.com/embed/5cEK1OLhUKQ', 'https://www.youtube.com/embed/RaXS4nAx0jU', 'https://www.youtube.com/embed/edBYB1VCV0k']
         };
     }
 
     private getOldschoolDoomContent(): SubganreContent {
         return {
-            backgroundImage: 'url(/assets/backgrounds/blackLine.jpg)',
+            backgroundImage: 'url(/assets/backgrounds/oldDoomLine.jpg)',
             header: 'Old school doom',
             mainInfo: 'Традиционный дум-метал — медленный, меланхоличный метал, возникший под влиянием Black Sabbath. Используются повторяющиеся, грубые, порою атональные риффы, отдельные элементы блюз-рока, мощный, «укачивающий» бас и даже веяния психоделии. Некоторые группы классической школы дум метала предпочитают время от времени «разбавлять» медленность и вязкость в звучании динамичными, характерными для рок-н-ролла, вставками. Большая часть представителей традиционного дум метала предпочитает чистый вокал' + ' <br/>' + 'Атмосфера в музыке классических дум-исполнителей весьма разнообразна - от холодной, эпической скорби до отчаяния и ярости.',
-            mainImg: 'url(/assets/bands/blackMain.jpg)',
+            mainImg: 'url(/assets/backgrounds/oldDoomBand.png)',
             videos: ['https://www.youtube.com/embed/0qanF-91aJo', 'https://www.youtube.com/embed/5SKsysEU4oo']
         };
     }
 
     private getFuneralContent(): SubganreContent {
         return {
-            backgroundImage: 'url(/assets/backgrounds/blackLine.jpg)',
+            backgroundImage: 'url(/assets/backgrounds/funeralLine.jpg)',
             header: 'funeral doom',
             mainInfo: 'Похоронный дум метал — стиль, в котором медленный темп доводится до крайностей и делается акцент на атмосфере отчаяния и опустошённости. Данный стиль можно рассматривать как отход от дэт-дум-метала с помощью более сильного замедления музыки и нередко с внедрением элементов эмбиента. В итоге получается искажённое и мрачное звучание, но, в то же время, часто мечтательное. В качестве вокала обычно используется гроулинг, но зачастую он является фоновым, и скорее используется как дополнительная текстура в музыке' + ' <br/>' + 'В дальнейшем, часть групп оставила за собой Doom/Death структуру и их можно выделить отдельно, как подвид «Funeral Death Doom» (Evoken). Другая часть групп пошли путем разрушения рифовой структуры, что привело к созданию нового подвида – «Ambient Funeral Doom» (Until Death Overtakes Me), где при сохранении общей идеи Funeral Doom (похоронная мрачность музыки, её медленность) композиции строятся на гитарных перегрузах.',
-            mainImg: 'url(/assets/bands/blackMain.jpg)',
+            mainImg: 'url(/assets/backgrounds/funeralBand.jpg)',
             videos: ['https://www.youtube.com/embed/wqnGL5NBGWc', 'https://www.youtube.com/embed/hhLfSe7ZbHA']
         };
     }
 
     private getEpicContent(): SubganreContent {
         return {
-            backgroundImage: 'url(/assets/backgrounds/blackLine.jpg)',
+            backgroundImage: 'url(/assets/backgrounds/epicLine.jpg)',
             header: 'epic doom',
             mainInfo: 'Эпик-дум метал (англ. epic doom metal) — поджанр, напоминающий традиционный дум-метал с более сильным влиянием средневековья и/или фэнтези. Вокалисты используют чистое, оперное и хоровое пение, а аккомпанементом служит игра на клавишных и ударных, выполняемая напыщенным образом, чтобы вызвать чувство «эпичности».' + ' <br/>' + ' В лирике и образах присутствует влияние фэнтези или мифологии. Эпик-дум уходит корнями в более традиционный метал, копируя некие концепции прото-думских групп.',
-            mainImg: 'url(/assets/bands/blackMain.jpg)',
+            mainImg: 'url(/assets/backgrounds/epicBand.jpg)',
             videos: ['https://www.youtube.com/embed/-3uvf0cn0jo', 'https://www.youtube.com/embed/8aDYf0AS83M']
         };
     }

@@ -13,7 +13,7 @@ import { NavService } from '../nav-service.service';
 export class DeathComponent implements OnInit {
 
   deathGanres: NavBlock[];
-  protected content: GanreContent;
+  public content: GanreContent;
 
   constructor(private ganreService: GanreContentService, private navService: NavService) {
   }

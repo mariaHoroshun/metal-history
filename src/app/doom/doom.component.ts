@@ -12,7 +12,7 @@ import { NavService } from '../nav-service.service';
 })
 export class DoomComponent implements OnInit {
 
-  protected content: GanreContent;
+  public content: GanreContent;
   doomGanres: NavBlock[];
 
   constructor(private ganreService: GanreContentService, private navService: NavService) {

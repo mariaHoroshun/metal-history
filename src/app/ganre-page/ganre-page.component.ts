@@ -14,7 +14,7 @@ export class GanrePageComponent implements OnInit {
   content: GanreContent;
 
   /*inform */
-  protected get header(): string {
+  public get header(): string {
     if (this.content) {
       return this.content.header;
     }
@@ -22,7 +22,7 @@ export class GanrePageComponent implements OnInit {
     return null;
   }
 
-  protected get mainInfo(): string {
+  public get mainInfo(): string {
     if (this.content) {
       return this.content.mainInfo;
     }
@@ -30,7 +30,7 @@ export class GanrePageComponent implements OnInit {
     return null;
   }
 
-  protected get backgroundImage(): string {
+  public get backgroundImage(): string {
     if (this.content) {
       return this.content.backgroundImage;
     }
@@ -38,7 +38,7 @@ export class GanrePageComponent implements OnInit {
     return null;
   }
 
-  protected get mainImg(): string {
+  public get mainImg(): string {
     if (this.content) {
       return this.content.mainImg;
     }
@@ -48,7 +48,7 @@ export class GanrePageComponent implements OnInit {
 
   /** sound*/
 
-  protected get soundImg(): string {
+  public get soundImg(): string {
     if (this.content) {
       return this.content.soundImg;
     }
@@ -56,35 +56,35 @@ export class GanrePageComponent implements OnInit {
     return null;
   }
 
-  protected get soundInfo(): string {
+  public get soundInfo(): string {
     if (this.content) {
       return this.content.soundInfo;
     }
     return null;
   }
   /** lyrics*/
-  protected get lyricsImg(): string {
+  public get lyricsImg(): string {
     if (this.content) {
       return this.content.lyricsImg;
     }
     return null;
   }
 
-  protected get lyricsInfo(): string {
+  public get lyricsInfo(): string {
     if (this.content) {
       return this.content.lyricsInfo;
     }
     return null;
   }
 
-  protected get firstLyr(): string {
+  public get firstLyr(): string {
     if (this.content) {
       return this.content.firstLyr;
     }
     return null;
   }
 
-  protected get secLyr(): string {
+  public get secLyr(): string {
     if (this.content) {
       return this.content.secLyr;
     }
@@ -93,56 +93,56 @@ export class GanrePageComponent implements OnInit {
 
   /**bands */
 
-  protected get americanBands(): string[] {
+  public get americanBands(): string[] {
     if (this.content) {
       return this.content.americanBands;
     }
     return null;
   }
 
-  protected get russianBands(): string[] {
+  public get russianBands(): string[] {
     if (this.content) {
       return this.content.russianBands;
     }
     return null;
   }
 
-  protected get britishBands(): string[] {
+  public get britishBands(): string[] {
     if (this.content) {
       return this.content.britishBands;
     }
     return null;
   }
 
-  protected get germanBands(): string[] {
+  public get germanBands(): string[] {
     if (this.content) {
       return this.content.germanBands;
     }
     return null;
   }
 
-  protected get americanImg(): string {
+  public get americanImg(): string {
     if (this.content) {
       return this.content.americanImg;
     }
     return null;
   }
 
-  protected get germanImg(): string {
+  public get germanImg(): string {
     if (this.content) {
       return this.content.germanImg;
     }
     return null;
   }
 
-  protected get russianImg(): string {
+  public get russianImg(): string {
     if (this.content) {
       return this.content.russianImg;
     }
     return null;
   }
 
-  protected get britishImg(): string {
+  public get britishImg(): string {
     if (this.content) {
       return this.content.britishImg;
     }

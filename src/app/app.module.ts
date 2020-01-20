@@ -72,8 +72,8 @@ const routes = [
   { path: 'oldschoolDeath', component: OldschoolDeathComponent },
   { path: 'brutal', component: BrutalDeathComponent },
   /** */
-  { path: '**', component: NotFoundComponent },
-]
+  { path: '**', component: NotFoundComponent }
+];
 
 @NgModule({
   declarations: [

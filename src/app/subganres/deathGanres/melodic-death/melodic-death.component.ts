@@ -13,7 +13,7 @@ import { MetalType } from 'src/app/models/metal-type';
 })
 export class MelodicDeathComponent implements OnInit {
 
-  protected content: SubganreContent;
+  public content: SubganreContent;
   deathGanres: NavBlock[];
 
   constructor(private subganreService: SubganreContentService, private navService: NavService) {

@@ -12,7 +12,7 @@ import { NavService } from '../nav-service.service';
 })
 export class ThrashComponent implements OnInit {
   thrashGanres: NavBlock[];
-  protected content: GanreContent;
+  public content: GanreContent;
 
   constructor(private ganreService: GanreContentService, private navService: NavService) {
   }

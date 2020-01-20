@@ -13,7 +13,7 @@ import { MetalType } from 'src/app/models/metal-type';
 })
 export class OldschoolDoomComponent implements OnInit {
 
-  protected content: SubganreContent;
+  public content: SubganreContent;
   doomGanres: NavBlock[];
 
   constructor(private subganreService: SubganreContentService, private navService: NavService) {

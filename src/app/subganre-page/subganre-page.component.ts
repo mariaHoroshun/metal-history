@@ -11,7 +11,7 @@ export class SubganrePageComponent implements OnInit {
   @Input()
   content: SubganreContent;
 
-  protected get header(): string {
+  public get header(): string {
     if (this.content) {
       return this.content.header;
     }
@@ -19,7 +19,7 @@ export class SubganrePageComponent implements OnInit {
     return null;
   }
 
-  protected get mainInfo(): string {
+  public get mainInfo(): string {
     if (this.content) {
       return this.content.mainInfo;
     }
@@ -27,7 +27,7 @@ export class SubganrePageComponent implements OnInit {
     return null;
   }
 
-  protected get backgroundImage(): string {
+  public get backgroundImage(): string {
     if (this.content) {
       return this.content.backgroundImage;
     }
@@ -35,7 +35,7 @@ export class SubganrePageComponent implements OnInit {
     return null;
   }
 
-  protected get mainImg(): string {
+  public get mainImg(): string {
     if (this.content) {
       return this.content.mainImg;
     }
@@ -43,7 +43,7 @@ export class SubganrePageComponent implements OnInit {
     return null;
   }
 
-  protected get videos(): string[] {
+  public get videos(): string[] {
     if (this.content) {
       return this.content.videos;
     }
