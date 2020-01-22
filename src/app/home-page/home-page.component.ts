@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faCaretSquareDown, faAngleRight, faInfoCircle, faSmile } from '@fortawesome/free-solid-svg-icons';
+import * as M from 'materialize-css/dist/js/materialize';
 
 @Component({
   selector: 'app-home-page',
@@ -12,7 +13,12 @@ export class HomePageComponent implements OnInit {
   faDown = faCaretSquareDown;
   faRight = faAngleRight;
 
-  ngOnInit() { }
+  ngOnInit() {
+    setTimeout(() => {
+      const elems = document.querySelectorAll('.parallax');
+      M.Parallax.init(elems, {});
+    }, 2000);
+  }
 
   scrollToElement(e) {
     e.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });

@@ -129,3 +129,8 @@
     opacity: 1;
     filter: sepia(20%);
 }
+/**/
+.parallax-container{
+    z-index: 100;
+    background-color: none;
+}
