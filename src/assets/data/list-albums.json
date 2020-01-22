@@ -67,6 +67,17 @@
             "myLink": "/oldschoolDeath"
         },
         {
+            "name": "Seven Churches",
+            "band": "Possessed",
+            "year": "1985",
+            "country": "США",
+            "members": "Джефф Бесерра, Ларри Лалонде, Майк Торраро, Майк Сус ",
+            "ganre": "old school death metal",
+            "coverImg": "url(/assets/albums/sevenCover.jpg)",
+            "bandImg": "url(/assets/albums/sevenBand.jpg)",
+            "myLink": "/oldschoolDeath"
+        },
+        {
             "name": "Bonded by blood",
             "band": "Exodus",
             "year": "1985",
@@ -108,6 +119,17 @@
             "ganre": " old school thrash metal",
             "coverImg": "url(/assets/albums/agentCover.jpg)",
             "bandImg": "url(/assets/albums/agentBand.jpg)",
+            "myLink": "/oldschoolThrash"
+        },
+        {
+            "name": "Hell Awaits",
+            "band": "Slayer",
+            "year": "1985",
+            "country": "США",
+            "members": "Керри Кинг, Том Арайа, Дейв Ломбардо, Джефф Ханнеман",
+            "ganre": " old school thrash metal",
+            "coverImg": "url(/assets/albums/hellCover.jpg)",
+            "bandImg": "url(/assets/albums/hellBand.jpg)",
             "myLink": "/oldschoolThrash"
         }
     ]

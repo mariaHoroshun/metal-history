@@ -72,7 +72,8 @@ const routes = [
   { path: 'oldschoolDeath', component: OldschoolDeathComponent },
   { path: 'brutal', component: BrutalDeathComponent },
   /** */
-  { path: '**', component: NotFoundComponent }
+  { path: '404', component: NotFoundComponent },
+  { path: '**', redirectTo: '404' }
 ];
 
 @NgModule({

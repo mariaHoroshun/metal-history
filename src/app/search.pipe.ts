@@ -10,6 +10,8 @@ export class SearchPipe implements PipeTransform {
             return album.name.includes(value) ||
                 album.year.toString().includes(value) ||
                 album.ganre.includes(value) ||
+                album.country.includes(value) ||
+                album.members.includes(value) ||
                 album.band.includes(value);
         });
     }
