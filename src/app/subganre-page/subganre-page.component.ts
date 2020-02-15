@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { SubganreContent } from '../models/subganre-content';
+import * as M from 'materialize-css/dist/js/materialize';
 
 @Component({
   selector: 'app-subganre-page',
@@ -54,6 +55,8 @@ export class SubganrePageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    const elems = document.querySelectorAll('.parallax');
+    M.Parallax.init(elems, {});
   }
 
 }

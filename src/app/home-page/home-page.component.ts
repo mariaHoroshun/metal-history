@@ -14,10 +14,8 @@ export class HomePageComponent implements OnInit {
   faRight = faAngleRight;
 
   ngOnInit() {
-    setTimeout(() => {
-      const elems = document.querySelectorAll('.parallax');
-      M.Parallax.init(elems, {});
-    }, 2000);
+    const elems = document.querySelectorAll('.parallax');
+    M.Parallax.init(elems, {});
   }
 
   scrollToElement(e) {

@@ -1,58 +1,58 @@
-<body>
-  <div id='content'>
-    <nav>
-      <div class="nav-wrapper">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a routerLink="/albums" class="link">
-              <fa-icon [icon]="faDisk"></fa-icon> Альбомы
+<div id='content'>
+  <nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a routerLink="/albums" class="link">
+            <fa-icon [icon]="faDisk"></fa-icon> Альбомы
+          </a></li>
+        <li><a routerLink="/" class="link">
+            <fa-icon [icon]="faHome"></fa-icon>
+          </a></li>
+      </ul>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a routerLink="/thrash" class="link">Thrash</a></li>
+        <li><a routerLink="/doom" class="link">Doom</a></li>
+        <li><a routerLink="/death" class="link">Death</a></li>
+        <li><a routerLink="/black" class="link">Black</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id='page-content'>
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<div class="scrollUp" (click)="scrollToTop()">
+  <fa-icon [icon]="fasquareUp"></fa-icon>
+</div>
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">About developer</h5>
+        <p class="grey-text text-lighten-4">You can contact the developer here:</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links:</h5>
+        <ul>
+          <li class="linkText"><a class="grey-text text-lighten-3" href="https://github.com/mariaHoroshun/metal-history
+" target="_blank">Github
+              <fa-icon [icon]="faGit"></fa-icon>
             </a></li>
-          <li><a routerLink="/" class="link">
-              <fa-icon [icon]="faHome"></fa-icon>
+          <li class="linkText"><a class="grey-text text-lighten-3" href="https://vk.com/id446067868" target="_blank">
+              <fa-icon [icon]="faVk"></fa-icon>
             </a></li>
-        </ul>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a routerLink="/thrash" class="link">Thrash</a></li>
-          <li><a routerLink="/doom" class="link">Doom</a></li>
-          <li><a routerLink="/death" class="link">Death</a></li>
-          <li><a routerLink="/black" class="link">Black</a></li>
+          <li class="linkText"><a class="grey-text text-lighten-3"
+              href="mailto:webmaster@20-century-metal.ru">webmaster@20-century-metal.ru</a></li>
         </ul>
       </div>
-    </nav>
-    <div id='page-content'>
-      <router-outlet></router-outlet>
     </div>
   </div>
-
-  <div class="scrollUp" (click)="scrollToTop()">
-    <fa-icon [icon]="fasquareUp"></fa-icon>
-  </div>
-
-  <footer class="page-footer">
+  <div class="footer-copyright">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">About developer</h5>
-          <p class="grey-text text-lighten-4">You can contact the developer here:</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links:</h5>
-          <ul>
-            <li class="linkText"><a class="grey-text text-lighten-3" href="https://github.com/mariaHoroshun/metal-history
-">Github
-                <fa-icon [icon]="faGit"></fa-icon>
-              </a></li>
-            <li class="linkText"><a class="grey-text text-lighten-3" href="https://vk.com/id446067868">
-                <fa-icon [icon]="faVk"></fa-icon>
-              </a></li>
-          </ul>
-        </div>
-      </div>
+      Made with Angular
+      <a class="grey-text text-lighten-4 right">@2019-2020</a>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-        Made with Angular
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-      </div>
-    </div>
-  </footer>
-</body>
+  </div>
+</footer>

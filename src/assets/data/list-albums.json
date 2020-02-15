@@ -131,6 +131,17 @@
             "coverImg": "url(/assets/albums/hellCover.jpg)",
             "bandImg": "url(/assets/albums/hellBand.jpg)",
             "myLink": "/oldschoolThrash"
+        },
+        {
+            "name": "Transilvanian Hunger",
+            "band": "Darkthrone",
+            "year": "1994",
+            "country": "Норвегия",
+            "members": "Фенриз, Ноктруно Культо",
+            "ganre": "second wave black metal",
+            "coverImg": "url(/assets/albums/thransCover.jpg)",
+            "bandImg": "url(/assets/albums/thransBand.jpg)",
+            "myLink": "/second"
         }
     ]
 }
