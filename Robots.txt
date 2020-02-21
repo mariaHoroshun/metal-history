@@ -1,0 +1,3 @@
+User-agent: *
+Host: www.20-century-metal.ru
+Sitemap: http://20-century-metal.ru/sitemap.xml
