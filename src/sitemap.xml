@@ -13,19 +13,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/oldschoolThrash</loc>
+    <loc>http://20-century-metal.ru/thrash/oldschool</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/crossover</loc>
+    <loc>http://20-century-metal.ru/trash/crossover</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/prog</loc>
+    <loc>http://20-century-metal.ru/trash/prog</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
@@ -37,19 +37,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/funeral</loc>
+    <loc>http://20-century-metal.ru/doom/funeral</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/epic</loc>
+    <loc>http://20-century-metal.ru/doom/epic</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/oldschoolDoom</loc>
+    <loc>http://20-century-metal.ru/doom/oldschool</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
@@ -61,19 +61,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/brutal</loc>
+    <loc>http://20-century-metal.ru/death/brutal</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/oldschoolDeath</loc>
+    <loc>http://20-century-metal.ru/death/oldschool</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/melodic</loc>
+    <loc>http://20-century-metal.ru/death/melodic</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
@@ -85,19 +85,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/first</loc>
+    <loc>http://20-century-metal.ru/black/firstwave</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/second</loc>
+    <loc>http://20-century-metal.ru/black/secondwave</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://20-century-metal.ru/dsbm</loc>
+    <loc>http://20-century-metal.ru/black/dsbm</loc>
     <lastmod>2020-02-15 15:29:27</lastmod>
     <changefreq>Yearly</changefreq>
     <priority>1.0</priority>
