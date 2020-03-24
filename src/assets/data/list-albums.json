@@ -9,7 +9,7 @@
             "ganre": "old school thrash metal",
             "coverImg": "url(/assets/albums/killingCover.jpg)",
             "bandImg": "url(/assets/albums/killingBand.jpg)",
-            "myLink": "/oldschoolThrash"
+            "myLink": "/thrash/oldschool"
         },
         {
             "name": "Severed Survival",
@@ -20,7 +20,7 @@
             "ganre": "old school death metal",
             "coverImg": "url(/assets/albums/severedCover.jpg)",
             "bandImg": "url(/assets/albums/severedBand.jpg)",
-            "myLink": "/oldschoolDeath"
+            "myLink": "/death/oldschool"
         },
         {
             "name": "Under the Sign of the Black Mark",
@@ -31,7 +31,7 @@
             "ganre": "first wave black metal",
             "coverImg": "url(/assets/albums/underCover.jpg)",
             "bandImg": "url(/assets/albums/underBand.jpg)",
-            "myLink": "/first"
+            "myLink": "/black/firstwave"
         },
         {
             "name": "Hatebreeder",
@@ -42,7 +42,7 @@
             "ganre": "melodic death metal",
             "coverImg": "url(/assets/albums/hateCover.jpg)",
             "bandImg": "url(/assets/albums/hateBand.jpg)",
-            "myLink": "/melodic"
+            "myLink": "/death/melodic"
         },
         {
             "name": "Dopesmoker",
@@ -53,7 +53,7 @@
             "ganre": "doom metal",
             "coverImg": "url(/assets/albums/dopeCover.jpg)",
             "bandImg": "url(/assets/albums/dopeBand.jpg)",
-            "myLink": "/doom"
+            "myLink": "/death/doom"
         },
         {
             "name": "Slowly We Rot",
@@ -64,7 +64,7 @@
             "ganre": " old school death metal",
             "coverImg": "url(/assets/albums/slowlyCover.jpg)",
             "bandImg": "url(/assets/albums/slowlyBand.jpg)",
-            "myLink": "/oldschoolDeath"
+            "myLink": "/death/oldschool"
         },
         {
             "name": "Seven Churches",
@@ -75,7 +75,7 @@
             "ganre": "old school death metal",
             "coverImg": "url(/assets/albums/sevenCover.jpg)",
             "bandImg": "url(/assets/albums/sevenBand.jpg)",
-            "myLink": "/oldschoolDeath"
+            "myLink": "/death/oldschool"
         },
         {
             "name": "Bonded by blood",
@@ -86,7 +86,7 @@
             "ganre": " old school thrash metal",
             "coverImg": "url(/assets/albums/bondedCover.jpg)",
             "bandImg": "url(/assets/albums/bondedBand.jpg)",
-            "myLink": "/oldschoolDeath"
+            "myLink": "/death/oldschool"
         },
         {
             "name": "Effigy of the Forgotten",
@@ -97,7 +97,7 @@
             "ganre": "brutal death metal",
             "coverImg": "url(/assets/albums/effigyCover.jpg)",
             "bandImg": "url(/assets/albums/effigyBand.jpg)",
-            "myLink": "/brutal"
+            "myLink": "/death/brutal"
         },
         {
             "name": "Killing Technology",
@@ -108,7 +108,7 @@
             "ganre": "progressive thrash metal",
             "coverImg": "url(/assets/albums/techCover.jpg)",
             "bandImg": "url(/assets/albums/techBand.jpg)",
-            "myLink": "/prog"
+            "myLink": "/trash/prog"
         },
         {
             "name": "Agent Orange",
@@ -119,7 +119,7 @@
             "ganre": " old school thrash metal",
             "coverImg": "url(/assets/albums/agentCover.jpg)",
             "bandImg": "url(/assets/albums/agentBand.jpg)",
-            "myLink": "/oldschoolThrash"
+            "myLink": "/thrash/oldschool"
         },
         {
             "name": "Hell Awaits",
@@ -130,7 +130,7 @@
             "ganre": " old school thrash metal",
             "coverImg": "url(/assets/albums/hellCover.jpg)",
             "bandImg": "url(/assets/albums/hellBand.jpg)",
-            "myLink": "/oldschoolThrash"
+            "myLink": "/thrash/oldschool"
         },
         {
             "name": "Transilvanian Hunger",
@@ -141,7 +141,7 @@
             "ganre": "second wave black metal",
             "coverImg": "url(/assets/albums/thransCover.jpg)",
             "bandImg": "url(/assets/albums/thransBand.jpg)",
-            "myLink": "/second"
+            "myLink": "/black/second"
         }
     ]
 }

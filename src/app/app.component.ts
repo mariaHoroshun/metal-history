@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { faCompactDisc, faHome, faSearch, faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faVk } from '@fortawesome/free-brands-svg-icons';
 
@@ -8,7 +8,10 @@ import { faGithub, faVk } from '@fortawesome/free-brands-svg-icons';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+  ngOnInit(): void {
+    alert('main!');
+  }
   title = 'metal-history';
   faHome = faHome;
   faDisk = faCompactDisc;

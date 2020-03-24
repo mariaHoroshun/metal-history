@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { MetalType } from './models/metal-type';
 import { of, Observable } from 'rxjs';
-import { NavBlock } from './navigation-block/nav-block';
+import { NavBlock } from './navigation/navigation-block/nav-block';
 
 
 @Injectable({
@@ -39,17 +39,17 @@ export class NavService {
                 ganreName: 'thrash'
             },
             {
-                navLink: '/oldschoolThrash',
+                navLink: '/thrash/oldschool',
                 navBackground: 'url(/assets/backgrounds/oldThrashGanre.jpg)',
                 ganreName: 'old school'
             },
             {
-                navLink: '/crossover',
+                navLink: '/trash/crossover',
                 navBackground: 'url(/assets/backgrounds/crossoverGanre.jpg)',
                 ganreName: 'crossover'
             },
             {
-                navLink: '/prog',
+                navLink: '/trash/prog',
                 navBackground: 'url(/assets/backgrounds/progGanre.jpg)',
                 ganreName: 'progressive'
             }
@@ -64,17 +64,17 @@ export class NavService {
                 ganreName: "death"
             },
             {
-                navLink: '/brutal',
+                navLink: '/death/brutal',
                 navBackground: 'url(/assets/backgrounds/cannibal.jpg)',
                 ganreName: "brutal"
             },
             {
-                navLink: '/oldschoolDeath',
+                navLink: '/death/oldschool',
                 navBackground: 'url(/assets/backgrounds/oldDeathGanre.jpg)',
                 ganreName: "old School"
             },
             {
-                navLink: '/melodic',
+                navLink: '/death/melodic',
                 navBackground: 'url(/assets/backgrounds/melodicGanre.jpg)',
                 ganreName: "melodic"
             }
@@ -89,17 +89,17 @@ export class NavService {
                 ganreName: "doom"
             },
             {
-                navLink: "/funeral",
+                navLink: "/doom/funeral",
                 navBackground: 'url(/assets/backgrounds/funeralGanre.jpg)',
                 ganreName: "funeral"
             },
             {
-                navLink: "/epic",
+                navLink: "/doom/epic",
                 navBackground: 'url(/assets/backgrounds/epicGanre.jpg)',
                 ganreName: 'epic'
             },
             {
-                navLink: "/oldschoolDoom",
+                navLink: "/doom/oldschool",
                 navBackground: 'url(/assets/backgrounds/oldDoomGanre.jpg)',
                 ganreName: 'old school'
             }
@@ -114,16 +114,16 @@ export class NavService {
                 ganreName: "black"
             },
             {
-                navLink: "/first",
+                navLink: "/black/firstwave",
                 navBackground: 'url(/assets/backgrounds/firstGanre.jpg)',
                 ganreName: "first wave"
             },
             {
-                navLink: "/second",
+                navLink: "/black/secondwave",
                 navBackground: 'url(/assets/backgrounds/secondGanre.jpg)',
                 ganreName: "second wave"
             }, {
-                navLink: "/dsbm",
+                navLink: "/black/dsbm",
                 navBackground: 'url(/assets/backgrounds/dsbmGanre.jpg)',
                 ganreName: "DSBM"
             }

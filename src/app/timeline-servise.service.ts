@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { MetalType } from './models/metal-type';
 import { of, Observable } from 'rxjs';
-import { TimelineItem } from './album-timeline/timeline-item';
+import { TimelineItem } from './album/album-timeline/timeline-item';
 
 
 @Injectable({

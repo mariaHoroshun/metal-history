@@ -1,4 +1,4 @@
-import { GuitarCard } from './guitars-collection/guitar-card';
+import { GuitarCard } from './common/guitars-collection/guitar-card';
 import { of, Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
 
