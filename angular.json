@@ -58,6 +58,13 @@
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
                 }
+              ],
+              "assets": [
+                "src/favicon.ico",
+                "src/assets",
+                "src/web.config",
+                "src/sitemap.xml",
+                "src/robots.txt"
               ]
             }
           }
