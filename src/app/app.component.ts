@@ -10,7 +10,6 @@ import { faGithub, faVk } from '@fortawesome/free-brands-svg-icons';
 })
 export class AppComponent implements OnInit {
   ngOnInit(): void {
-    alert('main!');
   }
   title = 'metal-history';
   faHome = faHome;
